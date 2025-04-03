@@ -3,8 +3,14 @@ default_stages: [pre-commit, manual]
 fail_fast: true
 
 repos:
+  - repo: https://github.com/commitizen-tools/commitizen
+    rev: v3.21.3  
+    hooks:
+      - id: commitizen
+        stages: [commit-msg]
+
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.4.4  # or latest
+    rev: v0.4.4  
     hooks:
       - id: ruff
         args: [--fix]
