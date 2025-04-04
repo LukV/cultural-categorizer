@@ -156,38 +156,29 @@ wheels = [
 [[package]]
 name = "cultural-categorizer"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "black" },
+    { name = "commitizen" },
     { name = "fastapi", extra = ["standard"] },
+    { name = "mypy" },
+    { name = "pre-commit" },
     { name = "pydantic" },
     { name = "ruff" },
     { name = "typer" },
 ]
 
-[package.dev-dependencies]
-dev = [
-    { name = "commitizen" },
-    { name = "mypy" },
-    { name = "pre-commit" },
-    { name = "ruff" },
-]
-
 [package.metadata]
 requires-dist = [
     { name = "black", specifier = ">=25.1.0" },
-    { name = "fastapi", extras = ["standard"], specifier = ">=0.115.12" },
-    { name = "pydantic", specifier = ">=2.11.1" },
-    { name = "ruff", specifier = ">=0.11.2" },
-    { name = "typer", specifier = ">=0.15.2" },
-]
-
-[package.metadata.requires-dev]
-dev = [
     { name = "commitizen", specifier = ">=4.4.1" },
+    { name = "fastapi", extras = ["standard"], specifier = ">=0.115.12" },
     { name = "mypy", specifier = ">=1.15.0" },
     { name = "pre-commit", specifier = ">=4.2.0" },
+    { name = "pydantic", specifier = ">=2.11.1" },
     { name = "ruff", specifier = ">=0.9.4" },
+    { name = "ruff", specifier = ">=0.11.2" },
+    { name = "typer", specifier = ">=0.15.2" },
 ]
 
 [[package]]
