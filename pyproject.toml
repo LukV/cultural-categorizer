@@ -1,6 +1,6 @@
 [project]
 name = "cultural-categorizer"
-version = "0.1.0"
+version = "0.1.1"
 description = "A batteries included taxonomy service for the culture sector."
 authors = [{ name = "LukV", email = "luk.verhelst@gmail.com" }]
 readme = "README.md"
@@ -19,7 +19,6 @@ dependencies = [
 
 [project.scripts]
 cli = "core.cli:app"
-cz = "commitizen.cli:cli"
 
 [tool.ruff.lint.flake8-tidy-imports]
 ban-relative-imports = "all"
