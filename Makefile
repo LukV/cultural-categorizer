@@ -3,7 +3,7 @@
 .PHONY: install lint typecheck test commit format clean
 
 install:
-	uv sync --active --include dev
+	uv sync --active 
 	uv run --active pre-commit install
 
 lint:
