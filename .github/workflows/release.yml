@@ -26,12 +26,12 @@ jobs:
           python-version: "3.12"
 
       - name: ⚙️ Install uv
-        uses: supplypike/setup-uv@v1
+        uses: astral-sh/setup-uv@v5
         with:
           version: latest
 
       - name: 📦 Sync dependencies
-        run: uv sync --include dev
+        run: uv sync
 
       - name: 🚀 Run cz bump
         run: uvx --from commitizen cz bump --yes
