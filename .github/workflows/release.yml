@@ -1,0 +1,43 @@
+name: Create Release
+
+on:
+  workflow_dispatch:  # Allow manual release
+  push:
+    branches: [main]  # Optional: auto-bump on merge to main
+
+permissions:
+  contents: write  # Required to push tags and changelog
+  id-token: write
+
+jobs:
+  bump:
+    name: Commitizen Bump
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🔄 Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Required for tagging
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: ⚙️ Install uv
+        uses: supplypike/setup-uv@v1
+        with:
+          version: latest
+
+      - name: 📦 Sync dependencies
+        run: uv sync --include dev
+
+      - name: 🚀 Run cz bump
+        run: uvx --from commitizen cz bump --yes
+
+      - name: 🚀 Push changes (tag + changelog + version bump)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git push --follow-tags origin main
