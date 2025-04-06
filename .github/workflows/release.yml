@@ -1,9 +1,7 @@
 name: Create Release
 
 on:
-  workflow_dispatch:  # Allow manual release
-  push:
-    branches: [main]  # Optional: auto-bump on merge to main
+  workflow_dispatch
 
 permissions:
   contents: write  # Required to push tags and changelog
