@@ -31,13 +31,16 @@ jobs:
           version: latest
 
       - name: 📦 Sync dependencies
-        run: uv sync
+        run: uv sync 
+
+      - name: 🔧 Configure Git user
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: 🚀 Run cz bump
         run: uvx --from commitizen cz bump --yes
 
       - name: 🚀 Push changes (tag + changelog + version bump)
         run: |
-          git config --global user.name "LukV"
-          git config --global user.email "luk.verhelst@gmail.com"
           git push --follow-tags origin main
