@@ -171,7 +171,7 @@ wheels = [
 [[package]]
 name = "cultural-categorizer"
 version = "0.1.1"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "fastapi", extra = ["standard"] },
     { name = "pydantic" },
