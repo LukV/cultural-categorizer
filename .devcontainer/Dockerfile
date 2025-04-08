@@ -1,6 +1,7 @@
 # syntax=docker/dockerfile:1
 
 # Stage 1 — Get latest uv from Astral
+# hadolint ignore=DL3006
 FROM ghcr.io/astral-sh/uv:latest AS uv
 
 # Stage 2 — Devcontainer base with Debian and non-root user
