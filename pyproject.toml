@@ -8,8 +8,13 @@ requires-python = ">=3.12"
 license = { file = "LICENSE" }
 
 dependencies = [
+    "accelerate>=1.6.0",
     "fastapi[standard]>=0.115.12",
+    "numpy>=2.2.4",
     "pydantic>=2.11.1",
+    "scikit-learn>=1.6.1",
+    "sentence-transformers>=4.0.2",
+    "transformers>=4.51.0",
     "typer>=0.15.2",
     "uv>=0.6.12",
 ]
