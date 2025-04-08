@@ -1,4 +1,9 @@
-## v0.1.2 (2025-04-06)
+## Unreleased
+
+### Feat
+
+- **embedder.py**: embedder class encodes text into vectors and computes similarity
+- Add CLI command load-taxonomy
 
 ### Fix
 

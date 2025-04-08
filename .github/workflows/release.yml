@@ -38,6 +38,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
+      - name: 📄 Generate changelog
+        run: uvx --from commitizen cz changelog
+
       - name: 🚀 Run cz bump
         run: uvx --from commitizen cz bump --yes
 
