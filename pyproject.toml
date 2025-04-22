@@ -1,6 +1,6 @@
 [project]
 name = "cultural-categorizer"
-version = "0.2.0"
+version = "0.3.0"
 description = "A batteries included taxonomy service for the culture sector."
 authors = [{ name = "LukV", email = "luk.verhelst@gmail.com" }]
 readme = "README.md"

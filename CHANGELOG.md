@@ -1,7 +1,8 @@
-## v0.2.0 (2025-04-08)
+## v0.3.0 (2025-04-22)
 
 ### Feat
 
+- normalize taxonomy for better SentenceTransformer performance
 - **embedder.py**: embedder class encodes text into vectors and computes similarity
 - Add CLI command load-taxonomy
 
