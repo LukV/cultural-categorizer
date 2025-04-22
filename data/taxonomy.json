@@ -8,16 +8,12 @@
                 "fr": "Concert",
                 "de": "Konzert",
                 "en": "Concert"
-            }
-        },
-        {
-            "id": "0.52.0.0.0",
-            "domain": "theme",
-            "name": {
-                "nl": "Circus",
-                "fr": "Cirque",
-                "de": "Zirkus",
-                "en": "Circus"
+            },
+            "description": {
+                "en": "A live music performance by an artist, band, or ensemble, typically held in a concert hall, club, or open-air venue.",
+                "nl": "Een live muziekoptreden van een artiest, band of ensemble, doorgaans in een concertzaal, club of openluchtlocatie.",
+                "fr": "Un concert en direct donné par un artiste, un groupe ou un ensemble, souvent dans une salle de concert ou en plein air.",
+                "de": "Ein Live-Musikauftritt eines Künstlers, einer Band oder eines Ensembles, üblicherweise in einer Konzerthalle oder im Freien."
             }
         },
         {
@@ -28,6 +24,12 @@
                 "fr": "Spectacle de danse",
                 "de": "Tanz-Performance",
                 "en": "Dance performance"
+            },
+            "description": {
+                "en": "A choreographed performance showcasing movement, rhythm, and physical expression, including styles such as ballet, modern or folk dance.",
+                "nl": "Een gechoreografeerde voorstelling waarin beweging, ritme en expressie centraal staan, zoals klassiek ballet of moderne dans.",
+                "fr": "Une performance chorégraphiée mettant en valeur le mouvement, le rythme et l'expression corporelle, y compris ballet ou danse contemporaine.",
+                "de": "Eine choreografierte Darbietung mit Fokus auf Bewegung, Rhythmus und Ausdruck, z. B. Ballett oder moderner Tanz."
             }
         },
         {
@@ -38,6 +40,12 @@
                 "fr": "Festival",
                 "de": "Festival",
                 "en": "Festival"
+            },
+            "description": {
+                "en": "A multi-day or themed celebration featuring performances, activities, or cultural displays often centered on music, food, or art.",
+                "nl": "Een meerdaags of thematisch feest met optredens, activiteiten of culturele presentaties, vaak rond muziek, eten of kunst.",
+                "fr": "Un événement festif sur plusieurs jours avec spectacles, activités ou expositions culturelles, souvent axé sur la musique, la gastronomie ou l’art.",
+                "de": "Ein mehrtägiges oder themenbezogenes Fest mit Aufführungen, Aktivitäten oder kulturellen Darbietungen rund um Musik, Essen oder Kunst."
             }
         },
         {
@@ -45,9 +53,15 @@
             "domain": "eventtype",
             "name": {
                 "nl": "Film",
-                "fr": "Cin\u00e9ma",
+                "fr": "Cinéma",
                 "de": "Film",
                 "en": "Film"
+            },
+            "description": {
+                "en": "A public screening of a motion picture, ranging from blockbusters to arthouse films and documentaries.",
+                "nl": "Een publieke vertoning van een speelfilm, van grote kaskrakers tot arthousefilms en documentaires.",
+                "fr": "Une projection publique d’un film, qu’il soit grand public, indépendant ou documentaire.",
+                "de": "Eine öffentliche Vorführung eines Spielfilms, von Blockbustern bis zu Arthouse- und Dokumentarfilmen."
             }
         },
         {
@@ -55,9 +69,15 @@
             "domain": "eventtype",
             "name": {
                 "nl": "Lezing of congres",
-                "fr": "Conf\u00e9rence ou congr\u00e8s",
-                "de": "Vortrag oder Gespr\u00e4ch",
+                "fr": "Conférence ou congrès",
+                "de": "Vortrag oder Gespräch",
                 "en": "Lecture or conference"
+            },
+            "description": {
+                "en": "An event centered on the verbal presentation of knowledge, ideas, or research by one or more speakers. Includes lectures and conferences.",
+                "nl": "Een evenement waarin kennis, ideeën of onderzoek verbaal wordt gepresenteerd door één of meerdere sprekers. Inclusief lezingen en congressen.",
+                "fr": "Un événement basé sur la présentation orale de savoirs, d’idées ou de recherches par un ou plusieurs intervenants. Inclut conférences et congrès.",
+                "de": "Eine Veranstaltung mit mündlicher Präsentation von Wissen, Ideen oder Forschung durch einen oder mehrere Sprecher. Einschließlich Vorträgen und Kongressen."
             }
         },
         {
@@ -65,9 +85,15 @@
             "domain": "eventtype",
             "name": {
                 "nl": "Theatervoorstelling",
-                "fr": "Th\u00e9\u00e2tre",
+                "fr": "Théâtre",
                 "de": "Theater",
                 "en": "Theatre"
+            },
+            "description": {
+                "en": "A live dramatic performance with actors portraying characters in scripted scenes, including classical, modern, or experimental plays.",
+                "nl": "Een live toneelvoorstelling waarbij acteurs personages uitbeelden in geënsceneerde scènes, variërend van klassiek tot experimenteel.",
+                "fr": "Une pièce de théâtre en direct avec des acteurs jouant des rôles dans des scènes écrites, classique ou contemporaine.",
+                "de": "Eine Live-Theateraufführung mit Schauspielern in geschriebenen Szenen, klassisch oder experimentell inszeniert."
             }
         },
         {
@@ -75,9 +101,15 @@
             "domain": "eventtype",
             "name": {
                 "nl": "Sportwedstrijd bekijken",
-                "fr": "Assister \u00e0 une comp\u00e9tition sportive",
+                "fr": "Assister à une compétition sportive",
                 "de": "Sport Antzeigen",
                 "en": "Sports Viewing"
+            },
+            "description": {
+                "en": "An activity involving physical exertion and skill, either as a performance or audience event, such as matches or athletic demonstrations.",
+                "nl": "Een activiteit waarbij fysieke inspanning en vaardigheid centraal staan, zoals sportwedstrijden of demonstraties.",
+                "fr": "Une activité physique faisant appel à l’adresse et à l’effort, comme les compétitions ou démonstrations sportives.",
+                "de": "Eine körperliche Aktivität mit Können und Einsatz, etwa bei Wettkämpfen oder sportlichen Vorführungen."
             }
         },
         {
@@ -85,9 +117,15 @@
             "domain": "eventtype",
             "name": {
                 "nl": "Markt, braderie of kermis",
-                "fr": "March\u00e9, foire ou f\u00eate foraine",
+                "fr": "Marché, foire ou fête foraine",
                 "de": "Markt oder Messe",
                 "en": "Market, fair or funfair"
+            },
+            "description": {
+                "en": "A public event featuring stalls, vendors, or amusement rides, often held in open spaces for community gathering and trade.",
+                "nl": "Een publiek evenement met kraampjes, verkopers of kermisattracties, vaak op pleinen of markten voor handel en ontmoeting.",
+                "fr": "Un événement public avec des stands, des vendeurs ou des attractions, souvent en plein air, favorisant l’échange et la convivialité.",
+                "de": "Eine öffentliche Veranstaltung mit Ständen, Verkäufern oder Fahrgeschäften, oft auf Plätzen oder Märkten."
             }
         },
         {
@@ -101,7 +139,13 @@
             },
             "scope": [
                 "places"
-            ]
+            ],
+            "description": {
+                "en": "A publicly accessible natural environment or green space designated for recreation, exploration, or ecological preservation.",
+                "nl": "Een publiek toegankelijk natuurgebied of park voor recreatie, ontdekking of ecologisch behoud.",
+                "fr": "Un espace vert ou environnement naturel accessible au public pour la détente, la découverte ou la préservation écologique.",
+                "de": "Ein öffentlich zugängliches Naturgebiet oder Park zur Erholung, Erkundung oder ökologischen Bewahrung."
+            }
         },
         {
             "id": "0.14.0.0.0",
@@ -114,16 +158,28 @@
             },
             "scope": [
                 "places"
-            ]
+            ],
+            "description": {
+                "en": "A historically or culturally significant structure or site preserved for public appreciation and education.",
+                "nl": "Een historisch of cultureel betekenisvol bouwwerk of site die bewaard blijft voor publieke waardering en educatie.",
+                "fr": "Un lieu ou édifice d’importance historique ou culturelle, préservé à des fins pédagogiques et culturelles.",
+                "de": "Ein historisch oder kulturell bedeutsames Bauwerk oder Ort, erhalten zur öffentlichen Würdigung und Bildung."
+            }
         },
         {
             "id": "0.12.0.0.0",
             "domain": "eventtype",
             "name": {
                 "nl": "Opendeurdag",
-                "fr": "Journ\u00e9e portes ouvertes",
-                "de": "Tag der offenen T\u00fcr",
+                "fr": "Journée portes ouvertes",
+                "de": "Tag der offenen Tür",
                 "en": "Open house"
+            },
+            "description": {
+                "en": "A cultural event of type 'Open house', involving audience participation or observation.",
+                "nl": "Een cultureel evenement van het type 'Opendeurdag', waarbij publiek deelneemt of toekijkt.",
+                "fr": "Un événement culturel de type 'Journée portes ouvertes', impliquant la participation ou l’observation du public.",
+                "de": "Eine kulturelle Veranstaltung vom Typ 'Tag der offenen Tür', bei der das Publikum teilnimmt oder zuschaut."
             }
         },
         {
@@ -134,6 +190,12 @@
                 "fr": "Foire",
                 "de": "Aktienmarkt",
                 "en": "Fair"
+            },
+            "description": {
+                "en": "A public event featuring stalls, vendors, or amusement rides, often held in open spaces for community gathering and trade.",
+                "nl": "Een publiek evenement met kraampjes, verkopers of kermisattracties, vaak op pleinen of markten voor handel en ontmoeting.",
+                "fr": "Un événement public avec des stands, des vendeurs ou des attractions, souvent en plein air, favorisant l’échange et la convivialité.",
+                "de": "Eine öffentliche Veranstaltung mit Ständen, Verkäufern oder Fahrgeschäften, oft auf Plätzen oder Märkten."
             }
         },
         {
@@ -144,6 +206,12 @@
                 "fr": "Exposition",
                 "de": "Ausstellung",
                 "en": "Exhibition"
+            },
+            "description": {
+                "en": "An event presenting artworks, objects, or information for public display, often in a museum or gallery.",
+                "nl": "Een evenement waarbij kunstwerken, objecten of informatie publiekelijk worden gepresenteerd, vaak in een museum of galerij.",
+                "fr": "Un événement présentant des œuvres, objets ou informations au public, souvent dans un musée ou une galerie.",
+                "de": "Eine Veranstaltung zur Präsentation von Kunst, Objekten oder Informationen, häufig in Museen oder Galerien."
             }
         },
         {
@@ -151,9 +219,15 @@
             "domain": "eventtype",
             "name": {
                 "nl": "Begeleide uitstap of rondleiding",
-                "fr": "Tour ou excursion guid\u00e9e",
-                "de": "Gef\u00fchrte Wanderung oder Tour",
+                "fr": "Tour ou excursion guidée",
+                "de": "Geführte Wanderung oder Tour",
                 "en": "Guided tour"
+            },
+            "description": {
+                "en": "A structured visit led by a guide, offering insights into a location, exhibition, or site of interest.",
+                "nl": "Een begeleid bezoek onder leiding van een gids, met uitleg over een locatie, tentoonstelling of bezienswaardigheid.",
+                "fr": "Une visite encadrée par un guide, apportant des explications sur un lieu, une exposition ou un site d’intérêt.",
+                "de": "Ein geführter Rundgang mit Erläuterungen durch eine Ausstellung, Sehenswürdigkeit oder einen besonderen Ort."
             }
         },
         {
@@ -161,9 +235,15 @@
             "domain": "eventtype",
             "name": {
                 "nl": "Lessenreeks",
-                "fr": "S\u00e9rie de cours",
+                "fr": "Série de cours",
                 "de": "Unterrichtsreihe",
                 "en": "Course series"
+            },
+            "description": {
+                "en": "A structured educational program consisting of multiple sessions on a specific topic, often held weekly or monthly.",
+                "nl": "Een gestructureerd leertraject bestaande uit meerdere sessies over een specifiek onderwerp, vaak wekelijks of maandelijks georganiseerd.",
+                "fr": "Un programme éducatif structuré composé de plusieurs sessions sur un thème spécifique, souvent proposé chaque semaine ou mois.",
+                "de": "Ein strukturiertes Lernangebot mit mehreren Sitzungen zu einem bestimmten Thema, oft wöchentlich oder monatlich organisiert."
             }
         },
         {
@@ -174,6 +254,12 @@
                 "fr": "Camp de vacance",
                 "de": "Camp oder Urlaub",
                 "en": "Camping"
+            },
+            "description": {
+                "en": "An organized camp or holiday activity, typically offering group-based leisure, education, or adventure experiences.",
+                "nl": "Een georganiseerd kamp of vakantiewerk met groepsgerichte ontspanning, educatie of avontuur.",
+                "fr": "Un camp ou séjour organisé, offrant des activités de groupe autour de loisirs, apprentissage ou aventure.",
+                "de": "Ein organisiertes Camp oder Ferienprogramm mit Gruppenaktivitäten zu Freizeit, Bildung oder Abenteuer."
             }
         },
         {
@@ -181,9 +267,15 @@
             "domain": "eventtype",
             "name": {
                 "nl": "Festiviteit",
-                "fr": "Festivit\u00e9",
+                "fr": "Festivité",
                 "de": "Fest",
                 "en": "Festivity"
+            },
+            "description": {
+                "en": "A festive gathering or celebration, often tied to cultural traditions or communal milestones.",
+                "nl": "Een feestelijke bijeenkomst of viering, vaak verbonden aan culturele tradities of gemeenschapsevenementen.",
+                "fr": "Un rassemblement festif ou une célébration liée aux traditions culturelles ou à la vie communautaire.",
+                "de": "Ein festliches Beisammensein oder eine Feier, häufig im Zusammenhang mit kulturellen Traditionen oder Gemeinschaftsanlässen."
             }
         },
         {
@@ -191,22 +283,34 @@
             "domain": "eventtype",
             "name": {
                 "nl": "Recreatiedomein of centrum",
-                "fr": "Centre de loisirs ou centre de r\u00e9cr\u00e9ation",
-                "de": "Recreation Area oder \u00fbcentrum",
+                "fr": "Centre de loisirs ou centre de récréation",
+                "de": "Recreation Area oder ûcentrum",
                 "en": "Recreation center"
             },
             "scope": [
                 "places"
-            ]
+            ],
+            "description": {
+                "en": "A publicly accessible space offering leisure infrastructure such as swimming, play, sports, or relaxation facilities.",
+                "nl": "Een publiek toegankelijk domein met infrastructuur voor recreatie zoals zwemmen, spelen, sporten of ontspannen.",
+                "fr": "Un espace public proposant des infrastructures de loisirs : piscine, jeux, sports ou détente.",
+                "de": "Ein öffentlich zugängliches Gelände mit Freizeiteinrichtungen wie Schwimmen, Spielen, Sport oder Erholung."
+            }
         },
         {
             "id": "0.17.0.0.0",
             "domain": "eventtype",
             "name": {
                 "nl": "Fiets- of wandelroute",
-                "fr": "Randonn\u00e9e p\u00e9destre ou cycliste",
+                "fr": "Randonnée pédestre ou cycliste",
                 "de": "Route",
                 "en": "Cycling or hiking tour"
+            },
+            "description": {
+                "en": "A pre-defined route for walking or cycling, often through scenic or cultural landscapes, with optional guidance or interpretation.",
+                "nl": "Een uitgestippelde fiets- of wandelroute doorheen een aantrekkelijk of cultureel landschap, al dan niet met gids of uitleg.",
+                "fr": "Un itinéraire balisé pour la marche ou le vélo à travers des paysages naturels ou culturels, avec ou sans accompagnement.",
+                "de": "Eine ausgeschilderte Rad- oder Wandertour durch landschaftlich oder kulturell reizvolle Gebiete, ggf. mit Führung oder Erklärung."
             }
         },
         {
@@ -214,9 +318,15 @@
             "domain": "eventtype",
             "name": {
                 "nl": "Party of fuif",
-                "fr": "Soir\u00e9e",
+                "fr": "Soirée",
                 "de": "Ausgehen",
                 "en": "Party or nightlife"
+            },
+            "description": {
+                "en": "A social event featuring music, dancing, and nightlife activities, typically in the evening or night.",
+                "nl": "Een sociaal evenement met muziek, dans en uitgaansactiviteiten, meestal ‘s avonds of ‘s nachts.",
+                "fr": "Un événement social avec musique, danse et vie nocturne, généralement en soirée ou la nuit.",
+                "de": "Eine gesellschaftliche Veranstaltung mit Musik, Tanz und Nachtleben, typischerweise am Abend oder in der Nacht."
             }
         },
         {
@@ -227,6 +337,12 @@
                 "fr": "Festin de nourriture ou de boisson",
                 "de": "Essen oder Trinken Fest",
                 "en": "Food or beverage feast"
+            },
+            "description": {
+                "en": "An event focused on culinary enjoyment, offering food or drinks often in a festive or thematic setting.",
+                "nl": "Een evenement in het teken van eten en drinken, vaak in een feestelijke of thematische context.",
+                "fr": "Un événement consacré à la gastronomie, avec nourriture ou boissons dans une ambiance festive ou à thème.",
+                "de": "Eine Veranstaltung rund ums Essen und Trinken, oft in festlicher oder thematischer Umgebung."
             }
         },
         {
@@ -237,6 +353,12 @@
                 "fr": "Jeu ou quiz",
                 "de": "Spiel oder Quiz",
                 "en": "Game or quiz"
+            },
+            "description": {
+                "en": "An interactive event involving games, quizzes, or playful challenges, often designed for entertainment or education.",
+                "nl": "Een interactief evenement met spellen, quizzen of speelse uitdagingen, vaak bedoeld voor amusement of educatie.",
+                "fr": "Un événement interactif incluant jeux, quiz ou défis ludiques, souvent à but récréatif ou éducatif.",
+                "de": "Eine interaktive Veranstaltung mit Spielen, Quizzen oder spielerischen Aufgaben – meist zu Unterhaltungs- oder Lernzwecken."
             }
         },
         {
@@ -244,22 +366,370 @@
             "domain": "eventtype",
             "name": {
                 "nl": "Thema of pretpark",
-                "fr": "Parc \u00e0 th\u00e8me ou parc d'attractions",
+                "fr": "Parc à thème ou parc d'attractions",
                 "de": "Unterhaltungspark",
                 "en": "Theme park"
             },
             "scope": [
                 "places"
-            ]
+            ],
+            "description": {
+                "en": "A publicly accessible natural environment or green space designated for recreation, exploration, or ecological preservation.",
+                "nl": "Een publiek toegankelijk natuurgebied of park voor recreatie, ontdekking of ecologisch behoud.",
+                "fr": "Un espace vert ou environnement naturel accessible au public pour la détente, la découverte ou la préservation écologique.",
+                "de": "Ein öffentlich zugängliches Naturgebiet oder Park zur Erholung, Erkundung oder ökologischen Bewahrung."
+            }
         },
         {
             "id": "0.59.0.0.0",
             "domain": "eventtype",
             "name": {
                 "nl": "Sportactiviteit",
-                "fr": "Activit\u00e9 sportive",
-                "de": "Sportliche Aktivit\u00e4t",
+                "fr": "Activité sportive",
+                "de": "Sportliche Aktivität",
                 "en": "Sports activity"
+            },
+            "description": {
+                "en": "An activity involving physical exertion and skill, either as a performance or audience event, such as matches or athletic demonstrations.",
+                "nl": "Een activiteit waarbij fysieke inspanning en vaardigheid centraal staan, zoals sportwedstrijden of demonstraties.",
+                "fr": "Une activité physique faisant appel à l’adresse et à l’effort, comme les compétitions ou démonstrations sportives.",
+                "de": "Eine körperliche Aktivität mit Können und Einsatz, etwa bei Wettkämpfen oder sportlichen Vorführungen."
+            }
+        },
+        {
+            "id": "0.51.0.0.0",
+            "domain": "eventtype",
+            "name": {
+                "nl": "Type onbepaald",
+                "fr": "Catégorie non déterminé",
+                "de": "unbestimmt",
+                "en": "Type undefined"
+            },
+            "scope": [
+                "events"
+            ],
+            "description": {
+                "en": "A cultural event of type 'Type undefined', involving audience participation or observation.",
+                "nl": "Een cultureel evenement van het type 'Type onbepaald', waarbij publiek deelneemt of toekijkt.",
+                "fr": "Un événement culturel de type 'Catégorie non déterminé', impliquant la participation ou l’observation du public.",
+                "de": "Eine kulturelle Veranstaltung vom Typ 'unbestimmt', bei der das Publikum teilnimmt oder zuschaut."
+            }
+        },
+        {
+            "id": "3CuHvenJ+EGkcvhXLg9Ykg",
+            "domain": "eventtype",
+            "name": {
+                "nl": "Archeologische site",
+                "fr": "Site archéologique",
+                "de": "Archäologische Stätte",
+                "en": "Archaeological site"
+            },
+            "scope": [
+                "places"
+            ],
+            "description": {
+                "en": "A physical location of type 'Archaeological site', intended for public access or use.",
+                "nl": "Een fysieke locatie van het type 'Archeologische site', bedoeld voor publieke toegang of gebruik.",
+                "fr": "Un lieu physique de type 'Site archéologique', destiné à un usage ou accès public.",
+                "de": "Ein physischer Ort vom Typ 'Archäologische Stätte', öffentlich zugänglich oder nutzbar."
+            }
+        },
+        {
+            "id": "rJRFUqmd6EiqTD4c7HS90w",
+            "domain": "eventtype",
+            "name": {
+                "nl": "School of onderwijscentrum",
+                "fr": "École ou centre éducatif",
+                "de": "Schule oder Bildungszentrum",
+                "en": "School or educational centre"
+            },
+            "scope": [
+                "places"
+            ],
+            "description": {
+                "en": "A physical location of type 'School or educational centre', intended for public access or use.",
+                "nl": "Een fysieke locatie van het type 'School of onderwijscentrum', bedoeld voor publieke toegang of gebruik.",
+                "fr": "Un lieu physique de type 'École ou centre éducatif', destiné à un usage ou accès public.",
+                "de": "Ein physischer Ort vom Typ 'Schule oder Bildungszentrum', öffentlich zugänglich oder nutzbar."
+            }
+        },
+        {
+            "id": "eBwaUAAhw0ur0Z02i5ttnw",
+            "domain": "eventtype",
+            "name": {
+                "nl": "Sportcentrum",
+                "fr": "Centre sportif",
+                "de": "Sportzentrum",
+                "en": "Sports Centre"
+            },
+            "scope": [
+                "places"
+            ],
+            "description": {
+                "en": "A physical location of type 'Sports Centre', intended for public access or use.",
+                "nl": "Een fysieke locatie van het type 'Sportcentrum', bedoeld voor publieke toegang of gebruik.",
+                "fr": "Un lieu physique de type 'Centre sportif', destiné à un usage ou accès public.",
+                "de": "Ein physischer Ort vom Typ 'Sportzentrum', öffentlich zugänglich oder nutzbar."
+            }
+        },
+        {
+            "id": "VRC6HX0Wa063sq98G5ciqw",
+            "domain": "eventtype",
+            "name": {
+                "nl": "Winkel",
+                "fr": "Magasin",
+                "de": "Laden",
+                "en": "Shop"
+            },
+            "scope": [
+                "places"
+            ],
+            "description": {
+                "en": "A physical location of type 'Shop', intended for public access or use.",
+                "nl": "Een fysieke locatie van het type 'Winkel', bedoeld voor publieke toegang of gebruik.",
+                "fr": "Un lieu physique de type 'Magasin', destiné à un usage ou accès public.",
+                "de": "Ein physischer Ort vom Typ 'Laden', öffentlich zugänglich oder nutzbar."
+            }
+        },
+        {
+            "id": "GnPFp9uvOUyqhOckIFMKmg",
+            "domain": "eventtype",
+            "name": {
+                "nl": "Museum of galerij",
+                "fr": "Musée ou galerie",
+                "de": "Museum oder Galerie",
+                "en": "Museum or gallery"
+            },
+            "scope": [
+                "places"
+            ],
+            "description": {
+                "en": "A physical venue where artworks, historical artifacts, or exhibitions are displayed for public viewing.",
+                "nl": "Een fysieke locatie waar kunstwerken, historische objecten of tentoonstellingen voor het publiek te bezichtigen zijn.",
+                "fr": "Un lieu où sont exposées des œuvres, objets historiques ou expositions à destination du public.",
+                "de": "Ein Ort, an dem Kunstwerke, historische Objekte oder Ausstellungen öffentlich präsentiert werden."
+            }
+        },
+        {
+            "id": "JCjA0i5COUmdjMwcyjNAFA",
+            "domain": "eventtype",
+            "name": {
+                "nl": "Jeugdhuis of jeugdcentrum",
+                "fr": "Maison de jeunes ou centre de jeunesse",
+                "de": "Jugendzentrum",
+                "en": "Youth centre"
+            },
+            "scope": [
+                "places"
+            ],
+            "description": {
+                "en": "A community-focused venue offering activities, support, and social space for young people, often organized by youth organizations.",
+                "nl": "Een ontmoetingsplek voor jongeren met activiteiten, ondersteuning en ruimte voor ontmoeting, vaak georganiseerd door jeugdverenigingen.",
+                "fr": "Un lieu dédié aux jeunes proposant des activités, un soutien et un espace social, souvent animé par des organisations de jeunesse.",
+                "de": "Ein Treffpunkt für Jugendliche mit Aktivitäten, Unterstützung und sozialem Raum, oft von Jugendorganisationen betrieben."
+            }
+        },
+        {
+            "id": "Yf4aZBfsUEu2NsQqsprngw",
+            "domain": "eventtype",
+            "name": {
+                "nl": "Cultuur- of ontmoetingscentrum",
+                "fr": "Centre culturel ou centre de réunion",
+                "de": "Kultur- oder Begegnungszentrum",
+                "en": "Cultural centre"
+            },
+            "scope": [
+                "places"
+            ],
+            "description": {
+                "en": "A venue offering cultural programming and community events, fostering artistic expression and local engagement.",
+                "nl": "Een locatie voor culturele programmering en gemeenschapsevenementen, gericht op artistieke expressie en lokale betrokkenheid.",
+                "fr": "Un lieu proposant une programmation culturelle et des événements communautaires favorisant l’expression artistique et l’engagement local.",
+                "de": "Ein Ort für kulturelle Programme und Gemeinschaftsveranstaltungen, der künstlerischen Ausdruck und lokale Beteiligung fördert."
+            }
+        },
+        {
+            "id": "YVBc8KVdrU6XfTNvhMYUpg",
+            "domain": "eventtype",
+            "name": {
+                "nl": "Discotheek",
+                "fr": "Discothèque",
+                "de": "Diskothek",
+                "en": "Nightclub"
+            },
+            "scope": [
+                "places"
+            ],
+            "description": {
+                "en": "A venue for nightlife and music events, typically featuring DJs or live performances in a social and dance-oriented setting.",
+                "nl": "Een locatie voor uitgaansleven en muziekevenementen, vaak met dj’s of liveoptredens in een dansgerichte sfeer.",
+                "fr": "Un lieu dédié à la vie nocturne et aux événements musicaux, souvent avec DJ ou concerts live dans une ambiance festive.",
+                "de": "Ein Veranstaltungsort für Nachtleben und Musik-Events, oft mit DJs oder Live-Auftritten in tanzorientierter Atmosphäre."
+            }
+        },
+        {
+            "id": "kI7uAyn2uUu9VV6Z3uWZTA",
+            "domain": "eventtype",
+            "name": {
+                "nl": "Bibliotheek of documentatiecentrum",
+                "fr": "Bibliothèque ou centre de documentation",
+                "de": "Bibliothek oder Dokumentationszentrum",
+                "en": "Library or documentation centre"
+            },
+            "scope": [
+                "places"
+            ],
+            "description": {
+                "en": "A public or institutional facility that offers access to books, media, and information resources for study and leisure.",
+                "nl": "Een openbare of institutionele voorziening met toegang tot boeken, media en informatie voor studie of ontspanning.",
+                "fr": "Un établissement public ou institutionnel offrant un accès à des livres, médias et ressources d'information.",
+                "de": "Eine öffentliche oder institutionelle Einrichtung mit Zugang zu Büchern, Medien und Informationsquellen."
+            }
+        },
+        {
+            "id": "BtVNd33sR0WntjALVbyp3w",
+            "domain": "eventtype",
+            "name": {
+                "nl": "Bioscoop",
+                "fr": "Cinéma",
+                "de": "Kino",
+                "en": "Cinema"
+            },
+            "scope": [
+                "places"
+            ],
+            "description": {
+                "en": "A venue where films are screened to the public, offering cinematic experiences from blockbusters to independent cinema.",
+                "nl": "Een locatie waar films worden vertoond voor publiek, van kaskrakers tot onafhankelijke producties.",
+                "fr": "Un lieu de projection de films pour le public, allant des blockbusters au cinéma indépendant.",
+                "de": "Ein Ort zur öffentlichen Filmvorführung, von Blockbustern bis hin zu unabhängigen Produktionen."
+            }
+        },
+        {
+            "id": "ekdc4ATGoUitCa0e6me6xA",
+            "domain": "eventtype",
+            "name": {
+                "nl": "Horeca",
+                "fr": "Horeca",
+                "de": "Gastgewerbe",
+                "en": "Hospitality"
+            },
+            "scope": [
+                "places"
+            ],
+            "description": {
+                "en": "An establishment in the hospitality sector such as cafés, restaurants, or bars, where food and drink are served.",
+                "nl": "Een horecazaak zoals een café, restaurant of bar waar eten en drinken worden geserveerd.",
+                "fr": "Un établissement du secteur horeca comme un café, restaurant ou bar où l’on sert nourriture et boissons.",
+                "de": "Ein Betrieb im Gastgewerbe wie ein Café, Restaurant oder eine Bar, in dem Speisen und Getränke angeboten werden."
+            }
+        },
+        {
+            "id": "wwjRVmExI0w6xfQwT1KWpx",
+            "domain": "eventtype",
+            "name": {
+                "nl": "Speeltuin",
+                "fr": "Aire de jeu",
+                "de": "Spielplatz",
+                "en": "Playground"
+            },
+            "scope": [
+                "places"
+            ],
+            "description": {
+                "en": "A designated outdoor area equipped for children to play, often with structures like slides, swings, and climbing frames.",
+                "nl": "Een aangelegde buitenspeelplaats voor kinderen met speeltoestellen zoals glijbanen, schommels en klimrekken.",
+                "fr": "Un espace extérieur aménagé pour les enfants, avec des installations telles que toboggans, balançoires et structures à grimper.",
+                "de": "Ein gestalteter Außenbereich für Kinder mit Spielgeräten wie Rutschen, Schaukeln und Klettergerüsten."
+            }
+        },
+        {
+            "id": "OyaPaf64AEmEAYXHeLMAtA",
+            "domain": "eventtype",
+            "name": {
+                "nl": "Zaal of expohal",
+                "fr": "Hall ou salle d'expo",
+                "de": "Saal oder Expo-Halle",
+                "en": "Hall or exhibition hall"
+            },
+            "scope": [
+                "places"
+            ],
+            "description": {
+                "en": "A large indoor space used for events, exhibitions, performances, or gatherings, adaptable to various formats.",
+                "nl": "Een grote overdekte ruimte voor evenementen, tentoonstellingen, optredens of bijeenkomsten in uiteenlopende opstellingen.",
+                "fr": "Un grand espace couvert utilisé pour des événements, expositions, spectacles ou réunions dans des formats variés.",
+                "de": "Eine große Halle für Veranstaltungen, Ausstellungen, Aufführungen oder Versammlungen in flexiblen Formaten."
+            }
+        },
+        {
+            "id": "0.8.0.0.0",
+            "domain": "eventtype",
+            "name": {
+                "nl": "Openbare ruimte",
+                "fr": "Espace public",
+                "de": "Der öffentliche Raum",
+                "en": "Public space"
+            },
+            "scope": [
+                "places"
+            ],
+            "description": {
+                "en": "An open, publicly accessible area in an urban or rural setting used for gathering, movement, or leisure.",
+                "nl": "Een open, publiek toegankelijke ruimte in een stedelijke of landelijke omgeving voor ontmoeting, beweging of ontspanning.",
+                "fr": "Un espace accessible au public en milieu urbain ou rural, destiné à la circulation, aux rencontres ou aux loisirs.",
+                "de": "Ein öffentlicher Raum in urbanem oder ländlichem Umfeld zur Begegnung, Bewegung oder Erholung."
+            }
+        },
+        {
+            "id": "0.3.1.0.1",
+            "domain": "eventtype",
+            "name": {
+                "nl": "Cursus met open sessies",
+                "fr": "Cours avec sessions ouvertes",
+                "de": "Kurs mit offenen Sitzungen",
+                "en": "Course with open sessions"
+            },
+            "description": {
+                "en": "A cultural event of type 'Course with open sessions', involving audience participation or observation.",
+                "nl": "Een cultureel evenement van het type 'Cursus met open sessies', waarbij publiek deelneemt of toekijkt.",
+                "fr": "Un événement culturel de type 'Cours avec sessions ouvertes', impliquant la participation ou l’observation du public.",
+                "de": "Eine kulturelle Veranstaltung vom Typ 'Kurs mit offenen Sitzungen', bei der das Publikum teilnimmt oder zuschaut."
+            }
+        },
+        {
+            "id": "8.70.0.0.0",
+            "domain": "eventtype",
+            "name": {
+                "nl": "Theater",
+                "fr": "Théâtre",
+                "de": "Theater",
+                "en": "Theatre"
+            },
+            "scope": [
+                "places"
+            ],
+            "description": {
+                "en": "A facility designed for the performance of plays, musicals, and other staged productions before a live audience.",
+                "nl": "Een locatie die is ingericht voor toneelvoorstellingen, musicals en andere podiumproducties voor een livepubliek.",
+                "fr": "Un lieu conçu pour les pièces de théâtre, comédies musicales et autres productions scéniques devant un public.",
+                "de": "Ein Veranstaltungsort für Theaterstücke, Musicals und andere Bühnenproduktionen vor Publikum."
+            }
+        },
+        {
+            "id": "0.52.0.0.0",
+            "domain": "theme",
+            "name": {
+                "nl": "Circus",
+                "fr": "Cirque",
+                "de": "Zirkus",
+                "en": "Circus"
+            },
+            "description": {
+                "en": "A traditional or contemporary performance art combining acrobatics, clowning, and spectacle, typically presented in a tent or arena.",
+                "nl": "Een traditionele of hedendaagse podiumkunst met acrobatie, clownerie en spektakel, meestal opgevoerd in een tent of arena.",
+                "fr": "Un art de la scène, traditionnel ou contemporain, combinant acrobaties, clowneries et spectacles, généralement sous chapiteau.",
+                "de": "Eine traditionelle oder moderne Bühnenkunst mit Akrobatik, Clownerie und Show, meist in einem Zelt oder einer Arena präsentiert."
             }
         },
         {
@@ -267,13 +737,19 @@
             "domain": "theme",
             "name": {
                 "nl": "Antiek en brocante",
-                "fr": "Antiquit\u00e9s ou brocantes",
+                "fr": "Antiquités ou brocantes",
                 "de": "Antik-und Flohmarkt",
                 "en": "Antiques"
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "en": "Thematic focus on antiques, vintage objects, and collectible items, often linked to markets, fairs, or exhibitions.",
+                "nl": "Thema rond antiek, vintage objecten en verzamelstukken, vaak verbonden aan markten, beurzen of tentoonstellingen.",
+                "fr": "Thématique liée aux antiquités, objets vintage ou de collection, souvent associée aux brocantes ou expositions.",
+                "de": "Thematischer Schwerpunkt auf Antiquitäten, Vintage-Stücken und Sammlerobjekten, oft im Rahmen von Märkten oder Ausstellungen."
+            }
         },
         {
             "id": "1.2.1.0.0",
@@ -286,7 +762,13 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "en": "The discipline and art of designing buildings and spaces, encompassing historical, contemporary, or experimental forms.",
+                "nl": "De kunst en discipline van het ontwerpen van gebouwen en ruimten, inclusief historische, hedendaagse of experimentele vormen.",
+                "fr": "L'art et la discipline de concevoir des bâtiments et des espaces, allant de l'historique au contemporain.",
+                "de": "Die Kunst und das Fach des Entwerfens von Gebäuden und Räumen – historisch, zeitgenössisch oder experimentell."
+            }
         },
         {
             "id": "1.1.0.0.0",
@@ -299,7 +781,13 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "en": "Creative expression through moving images and sound, including video art, digital installations, and experimental film.",
+                "nl": "Creatieve expressie via bewegend beeld en geluid, zoals videokunst, digitale installaties of experimentele film.",
+                "fr": "Expression artistique par l'image en mouvement et le son, incluant vidéo d'art, installations numériques ou films expérimentaux.",
+                "de": "Künstlerischer Ausdruck mit bewegten Bildern und Ton – z. B. Videokunst, digitale Installationen oder Experimentalfilm."
+            }
         },
         {
             "id": "1.0.2.0.0",
@@ -312,7 +800,13 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "en": "The artistic practice of creating three-dimensional forms from materials such as stone, metal, or clay.",
+                "nl": "De kunstvorm waarbij driedimensionale beelden worden gecreëerd uit materialen zoals steen, metaal of klei.",
+                "fr": "Pratique artistique de création de formes en trois dimensions à partir de matériaux comme la pierre, le métal ou l’argile.",
+                "de": "Künstlerisches Arbeiten mit dreidimensionalen Formen aus Materialien wie Stein, Metall oder Ton."
+            }
         },
         {
             "id": "1.0.6.0.0",
@@ -325,7 +819,13 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "en": "Artistic or documentary use of photography as a medium for visual storytelling or creative exploration.",
+                "nl": "Artistiek of documentair gebruik van fotografie als medium voor visuele verhalen of creatieve verkenning.",
+                "fr": "Utilisation artistique ou documentaire de la photographie pour raconter ou explorer visuellement.",
+                "de": "Künstlerischer oder dokumentarischer Einsatz von Fotografie zur visuellen Erzählung oder kreativen Auseinandersetzung."
+            }
         },
         {
             "id": "1.0.4.0.0",
@@ -338,7 +838,13 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "en": "A visual art form involving printmaking techniques such as etching, lithography, or screen printing.",
+                "nl": "Beeldende kunstvorm gebaseerd op druktechnieken zoals etsen, lithografie of zeefdruk.",
+                "fr": "Discipline artistique visuelle basée sur des techniques d'impression comme la gravure, la lithographie ou la sérigraphie.",
+                "de": "Bildende Kunst, die sich Drucktechniken wie Radierung, Lithografie oder Siebdruck bedient."
+            }
         },
         {
             "id": "1.0.3.0.0",
@@ -351,7 +857,13 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "en": "A form of contemporary art involving spatial, immersive or site-specific installations that engage the viewer.",
+                "nl": "Een hedendaagse kunstvorm met ruimtelijke, immersieve of locatiegebonden installaties die de toeschouwer betrekken.",
+                "fr": "Une forme d'art contemporain avec des installations spatiales, immersives ou in situ qui engagent le spectateur.",
+                "de": "Zeitgenössische Kunstform mit räumlichen, immersiven oder ortsspezifischen Installationen, die den Betrachter einbeziehen."
+            }
         },
         {
             "id": "1.0.1.0.0",
@@ -364,20 +876,32 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "en": "The creation of two-dimensional visual art using mediums such as oil, acrylic, or watercolor on various surfaces.",
+                "nl": "Het maken van tweedimensionale beeldende kunst met verf zoals olie, acryl of aquarel op diverse ondergronden.",
+                "fr": "Création d’œuvres visuelles en deux dimensions à l’aide de peinture à l’huile, acrylique ou aquarelle sur divers supports.",
+                "de": "Zweidimensionale Kunst mit Ölfarben, Acryl oder Aquarell auf verschiedenen Bildträgern."
+            }
         },
         {
             "id": "1.0.5.0.0",
             "domain": "theme",
             "name": {
                 "nl": "Decoratieve kunst",
-                "fr": "Arts d\u00e9coratives",
+                "fr": "Arts décoratives",
                 "de": "Angewandte Kunst",
                 "en": "Decorative arts"
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "en": "Applied arts focused on aesthetics and function in objects like furniture, textiles, ceramics, and interior design.",
+                "nl": "Toegepaste kunsten met nadruk op esthetiek en functie in objecten zoals meubels, textiel, keramiek en interieurvormgeving.",
+                "fr": "Arts appliqués alliant esthétique et fonction dans des objets comme mobilier, textile, céramique ou design intérieur.",
+                "de": "Angewandte Künste mit Fokus auf Ästhetik und Funktion in Objekten wie Möbeln, Textilien, Keramik und Raumgestaltung."
+            }
         },
         {
             "id": "1.2.2.0.0",
@@ -390,7 +914,13 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "en": "Covers the creative process of planning and shaping functional and aesthetic objects, from graphic and product design to spatial and digital interfaces.",
+                "nl": "Gaat over het creatieve proces van het ontwerpen van functionele en esthetische objecten, van grafisch en productdesign tot ruimtelijke en digitale toepassingen.",
+                "fr": "Couvre le processus créatif de conception d’objets fonctionnels et esthétiques, du design graphique au design de produits ou d’interfaces numériques.",
+                "de": "Bezieht sich auf den kreativen Entwurfsprozess funktionaler und ästhetischer Objekte – von Grafik- und Produktdesign bis hin zu räumlichen und digitalen Anwendungen."
+            }
         },
         {
             "id": "1.49.0.0.0",
@@ -403,7 +933,13 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "en": "Focuses on clothing, accessories, style and trends in a cultural, artistic or social context, including both haute couture and street fashion.",
+                "nl": "Richt zich op kleding, accessoires, stijl en trends in een culturele, artistieke of sociale context, waaronder haute couture en straatmode.",
+                "fr": "Traite de l’habillement, des accessoires, du style et des tendances dans un contexte culturel, artistique ou social.",
+                "de": "Befasst sich mit Kleidung, Accessoires, Stil und Modetrends in kulturellem, künstlerischem oder sozialem Zusammenhang."
+            }
         },
         {
             "id": "1.9.1.0.0",
@@ -416,7 +952,13 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "en": "Covers classical forms of dance such as ballet, emphasizing formal technique, discipline, and historical choreography.",
+                "nl": "Behandelt klassieke dansvormen zoals ballet, met nadruk op techniek, discipline en historisch repertoire.",
+                "fr": "Concerne les formes classiques de danse telles que le ballet, mettant l'accent sur la technique et le répertoire historique.",
+                "de": "Bezieht sich auf klassische Tanzformen wie Ballett mit Fokus auf Technik, Disziplin und traditionelles Repertoire."
+            }
         },
         {
             "id": "1.9.3.0.0",
@@ -429,20 +971,32 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "en": "Celebrates traditional and cultural dances from around the world, reflecting community identity and heritage.",
+                "nl": "Belicht traditionele en culturele dansvormen wereldwijd die de identiteit en het erfgoed van gemeenschappen weerspiegelen.",
+                "fr": "Célèbre les danses traditionnelles et culturelles du monde entier, reflet de l'identité et du patrimoine des communautés.",
+                "de": "Würdigt traditionelle Tanzformen aus aller Welt als Ausdruck von kultureller Identität und Gemeinschaft."
+            }
         },
         {
             "id": "1.9.5.0.0",
             "domain": "theme",
             "name": {
                 "nl": "Stijl en salondansen",
-                "fr": "Danse de salon et styl\u00e9e",
+                "fr": "Danse de salon et stylée",
                 "de": "Stil-und Gesellschaftstanz",
                 "en": "Ballroom dancing"
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "en": "Encompasses partner dances such as waltz, tango or foxtrot, typically performed in formal or social settings.",
+                "nl": "Omvat koppeldansen zoals wals, tango of foxtrot, vaak uitgevoerd in formele of sociale context.",
+                "fr": "Regroupe les danses de couple comme la valse, le tango ou le foxtrot, souvent pratiquées en contexte social ou formel.",
+                "de": "Umfasst Gesellschaftstänze wie Walzer, Tango oder Foxtrott, typischerweise in formellen oder geselligen Rahmen."
+            }
         },
         {
             "id": "1.9.2.0.0",
@@ -455,7 +1009,13 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "en": "Focuses on clothing, accessories, style and trends in a cultural, artistic or social context, including both haute couture and street fashion.",
+                "nl": "Richt zich op kleding, accessoires, stijl en trends in een culturele, artistieke of sociale context, waaronder haute couture en straatmode.",
+                "fr": "Traite de l’habillement, des accessoires, du style et des tendances dans un contexte culturel, artistique ou social.",
+                "de": "Befasst sich mit Kleidung, Accessoires, Stil und Modetrends in kulturellem, künstlerischem oder sozialem Zusammenhang."
+            }
         },
         {
             "id": "1.40.0.0.0",
@@ -468,7 +1028,13 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "en": "Activities and themes focused on the preservation, celebration, or reinterpretation of cultural and historical heritage.",
+                "nl": "Activiteiten en thema’s die draaien rond het bewaren, vieren of herinterpreteren van cultureel en historisch erfgoed.",
+                "fr": "Activités et thématiques autour de la préservation, célébration ou réinterprétation du patrimoine culturel et historique.",
+                "de": "Veranstaltungen und Themen zur Bewahrung, Feier oder Neuinterpretation von kulturellem und historischem Erbe."
+            }
         },
         {
             "id": "1.7.2.0.0",
@@ -481,20 +1047,32 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "en": "Film genre characterized by fast-paced plots, physical feats, and adventurous storylines involving danger and excitement.",
+                "nl": "Filmgenre met snelle actie, fysieke stunts en avontuurlijke verhalen vol spanning en gevaar.",
+                "fr": "Genre cinématographique basé sur des intrigues rapides, cascades et aventures pleines de tension.",
+                "de": "Filmgenre mit schnellen Handlungen, körperlicher Action und spannungsgeladenen Abenteuern."
+            }
         },
         {
             "id": "1.7.12.0.0",
             "domain": "theme",
             "name": {
                 "nl": "Animatie en kinderfilms",
-                "fr": "Films anim\u00e9s et films pour enfants",
+                "fr": "Films animés et films pour enfants",
                 "de": "Animations-und Kinderfilme",
                 "en": "Animation and children's films"
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "en": "Animated films and movies aimed at children, focusing on storytelling, visual creativity, and age-appropriate themes.",
+                "nl": "Animatiefilms en kinderfilms met nadruk op verbeelding, toegankelijke verhalen en visuele creativiteit.",
+                "fr": "Films d’animation et pour enfants, mettant en avant l’imaginaire, les récits accessibles et la créativité visuelle.",
+                "de": "Animations- und Kinderfilme, die sich durch fantasievolle Geschichten und kindgerechte Inhalte auszeichnen."
+            }
         },
         {
             "id": "1.7.1.0.0",
@@ -507,20 +1085,32 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "en": "Non-fiction films or series portraying real-life subjects with an informative, investigative or reflective purpose.",
+                "nl": "Niet-fictieve films of reeksen over werkelijke onderwerpen, bedoeld om te informeren, analyseren of reflecteren.",
+                "fr": "Films ou séries non fictionnelles sur des sujets réels, à vocation informative, analytique ou réflexive.",
+                "de": "Nicht-fiktionale Filme oder Serien über reale Themen mit informativem, untersuchendem oder reflektierendem Charakter."
+            }
         },
         {
             "id": "1.7.6.0.0",
             "domain": "theme",
             "name": {
                 "nl": "Griezelfilm of horror",
-                "fr": "Films d'\u00e9pouvantes ou orreurs",
+                "fr": "Films d'épouvantes ou orreurs",
                 "de": "Horror",
                 "en": "Horror"
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "en": "Films designed to evoke fear, suspense, or shock, often involving supernatural or psychological elements.",
+                "nl": "Films die angst, spanning of afschuw oproepen, vaak met bovennatuurlijke of psychologische motieven.",
+                "fr": "Films conçus pour susciter la peur ou le malaise, incluant souvent des éléments surnaturels ou psychologiques.",
+                "de": "Filme, die Angst, Spannung oder Schrecken auslösen, oft mit übernatürlichen oder psychologischen Themen."
+            }
         },
         {
             "id": "1.7.8.0.0",
@@ -533,46 +1123,70 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "en": "Films set in a specific historical period, often dramatizing real events, figures, or cultures.",
+                "nl": "Films gesitueerd in een historische periode, vaak met geënsceneerde gebeurtenissen of figuren uit het verleden.",
+                "fr": "Films situés dans un contexte historique, dramatise souvent des faits réels ou des personnages historiques.",
+                "de": "Filme mit historischem Schauplatz, die reale Ereignisse oder Persönlichkeiten dramatisch aufbereiten."
+            }
         },
         {
             "id": "1.7.3.0.0",
             "domain": "theme",
             "name": {
                 "nl": "Komedie",
-                "fr": "Com\u00e9die",
-                "de": "Kom\u00f6die",
+                "fr": "Comédie",
+                "de": "Komödie",
                 "en": "Comedy"
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "en": "Films intended to amuse and entertain through humor, satire, or playful storytelling.",
+                "nl": "Films die de kijker willen amuseren via humor, satire of speelse vertelstructuren.",
+                "fr": "Films conçus pour divertir par l’humour, la satire ou des récits légers.",
+                "de": "Filme mit dem Ziel zu unterhalten, durch Humor, Satire oder verspielte Erzählungen."
+            }
         },
         {
             "id": "1.7.13.0.0",
             "domain": "theme",
             "name": {
                 "nl": "Kortfilm",
-                "fr": "Court m\u00e9trage",
+                "fr": "Court métrage",
                 "de": "Kurzfilm",
                 "en": "Short film"
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "en": "Concise films typically under 40 minutes, exploring creative storytelling in a compact format.",
+                "nl": "Beknopte films van meestal minder dan 40 minuten die creatieve vertelvormen verkennen.",
+                "fr": "Films courts, généralement de moins de 40 minutes, explorant des formes narratives compactes.",
+                "de": "Kurze Filme, meist unter 40 Minuten, die mit kompakten Erzählformen experimentieren."
+            }
         },
         {
             "id": "1.7.10.0.0",
             "domain": "theme",
             "name": {
                 "nl": "Filmmusical",
-                "fr": "Com\u00e9die musicale",
+                "fr": "Comédie musicale",
                 "de": "Musical",
                 "en": "Musical"
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "en": "Films that integrate music, singing, and dance as essential storytelling elements.",
+                "nl": "Films waarin muziek, zang en dans een integrale rol spelen in het verhaal.",
+                "fr": "Films intégrant musique, chant et danse comme éléments narratifs essentiels.",
+                "de": "Filme, in denen Musik, Gesang und Tanz zentrale Erzählmittel sind."
+            }
         },
         {
             "id": "1.7.4.0.0",
@@ -585,7 +1199,13 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "en": "Emotionally driven films that explore serious themes, relationships, or personal struggles.",
+                "nl": "Films met een emotionele lading die serieuze thema’s of persoonlijke conflicten verkennen.",
+                "fr": "Films à dimension émotionnelle traitant de thèmes sérieux ou de conflits personnels.",
+                "de": "Emotional geprägte Filme, die sich mit ernsten Themen und menschlichen Beziehungen befassen."
+            }
         },
         {
             "id": "1.7.7.0.0",
@@ -598,20 +1218,32 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "en": "Speculative films exploring futuristic, scientific, or technological scenarios.",
+                "nl": "Speculatieve films over toekomstscenario’s, wetenschap of technologie.",
+                "fr": "Films spéculatifs explorant des scénarios futuristes, scientifiques ou technologiques.",
+                "de": "Spekulative Filme über Zukunftsvisionen, Wissenschaft oder Technik."
+            }
         },
         {
             "id": "1.7.11.0.0",
             "domain": "theme",
             "name": {
                 "nl": "Cinefiel",
-                "fr": "Cin\u00e9phile",
+                "fr": "Cinéphile",
                 "de": "Cinephile",
                 "en": "Independent"
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "en": "Independent or arthouse films often marked by unique style, experimentation, or personal vision.",
+                "nl": "Onafhankelijke of artistieke films met een persoonlijke stijl, experiment of cinematografische visie.",
+                "fr": "Films indépendants ou d’auteur, caractérisés par une vision personnelle et un style singulier.",
+                "de": "Unabhängige oder künstlerische Filme mit eigenem Stil und persönlicher Handschrift."
+            }
         },
         {
             "id": "1.11.0.0.0",
@@ -624,20 +1256,32 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "en": "Covers historical themes, events, periods, and figures across cultures and time.",
+                "nl": "Thema’s rond historische gebeurtenissen, tijdsperioden of figuren uit diverse culturen.",
+                "fr": "Thèmes liés à des événements, périodes ou personnages historiques à travers les cultures.",
+                "de": "Themen zu historischen Ereignissen, Epochen und Persönlichkeiten aus aller Welt."
+            }
         },
         {
             "id": "1.62.0.0.0",
             "domain": "theme",
             "name": {
                 "nl": "Gezondheid en wellness",
-                "fr": "Sant\u00e9 et bien-\u00eatre",
+                "fr": "Santé et bien-être",
                 "de": "Gesundheit und Wellness",
                 "en": "Health and wellness"
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "en": "Focus on physical, mental, and emotional well-being, including preventive health and lifestyle topics.",
+                "nl": "Richt zich op fysiek, mentaal en emotioneel welzijn, waaronder gezondheidspreventie en levensstijl.",
+                "fr": "Concerne le bien-être physique, mental et émotionnel, y compris la prévention et le mode de vie.",
+                "de": "Fokus auf körperliches, mentales und emotionales Wohlbefinden, inklusive Prävention und Lebensstil."
+            }
         },
         {
             "id": "1.63.0.0.0",
@@ -650,33 +1294,70 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "en": "Thematic focus on rural life, agricultural practices, farming traditions and sustainability.",
+                "nl": "Thematiek rond het plattelandsleven, landbouwpraktijken, boerentradities en duurzaamheid.",
+                "fr": "Thématique sur la vie rurale, les pratiques agricoles, les traditions paysannes et la durabilité.",
+                "de": "Themen rund ums Landleben, landwirtschaftliche Praktiken, bäuerliche Traditionen und Nachhaltigkeit."
+            }
         },
         {
             "id": "1.10.0.0.0",
             "domain": "theme",
             "name": {
                 "nl": "Literatuur",
-                "fr": "Lit\u00e9rature",
+                "fr": "Litérature",
                 "de": "Literatur",
                 "en": "Literature"
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "en": "Thematic focus on written works of artistic or intellectual value, including fiction, non-fiction, and poetry.",
+                "nl": "Thema rond geschreven werken met artistieke of intellectuele waarde, zoals fictie, non-fictie en poëzie.",
+                "fr": "Thématique centrée sur les œuvres écrites de valeur artistique ou intellectuelle : fiction, non-fiction, poésie.",
+                "de": "Themenfokus auf literarische Werke mit künstlerischem oder intellektuellem Gehalt – Fiktion, Sachliteratur und Poesie."
+            }
+        },
+        {
+            "id": "1.51.14.0.0",
+            "domain": "theme",
+            "name": {
+                "nl": "Atletiek, wandelen en fietsen",
+                "fr": "Athlétisme, marche et cyclisme",
+                "de": "Leichtathletik, Wandern und Radfahren",
+                "en": "Athletics, running and cycling"
+            },
+            "scope": [
+                "events"
+            ],
+            "description": {
+                "en": "Covers sports and leisure activities focused on individual physical endurance such as running, hiking, and cycling.",
+                "nl": "Omvat sport- en vrijetijdsactiviteiten rond fysieke uithouding zoals lopen, wandelen en fietsen.",
+                "fr": "Regroupe les activités sportives et de loisir basées sur l’endurance physique : course, marche, vélo.",
+                "de": "Beinhaltet Sport- und Freizeitaktivitäten wie Laufen, Wandern und Radfahren, die auf Ausdauer basieren."
+            }
         },
         {
             "id": "1.10.5.0.0",
             "domain": "theme",
             "name": {
                 "nl": "Poezie",
-                "fr": "Po\u00e9sie",
+                "fr": "Poésie",
                 "de": "Poesie",
                 "en": "Poetry"
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Poezie is een literaire kunstvorm waarin taal wordt gebruikt om gevoelens, gedachten en beelden op een ritmische en vaak beeldrijke manier over te brengen.",
+                "en": "Poetry is a literary form that expresses emotions, ideas, and imagery through rhythmic and often metaphorical language.",
+                "fr": "La poésie est une forme littéraire qui exprime des émotions, des idées et des images à travers un langage rythmé et souvent métaphorique.",
+                "de": "Poesie ist eine literarische Ausdrucksform, die Gefühle, Ideen und Bilder durch rhythmische und oft metaphorische Sprache vermittelt."
+            }
         },
         {
             "id": "1.10.11.0.0",
@@ -689,7 +1370,13 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Fictie omvat verzonnen verhalen die personages en gebeurtenissen beschrijven die ontsproten zijn aan de verbeelding van de auteur.",
+                "en": "Fiction includes invented stories featuring characters and events imagined by the author.",
+                "fr": "La fiction comprend des récits inventés mettant en scène des personnages et des événements imaginés par l'auteur.",
+                "de": "Fiktion umfasst erfundene Geschichten mit Figuren und Ereignissen, die der Vorstellungskraft des Autors entspringen."
+            }
         },
         {
             "id": "1.10.12.0.0",
@@ -697,25 +1384,37 @@
             "name": {
                 "nl": "Non fictie",
                 "fr": "Non fiction",
-                "de": "Sachb\u00fccher",
+                "de": "Sachbücher",
                 "en": "Non fiction"
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Non-fictie omvat werken die gebaseerd zijn op feiten en echte gebeurtenissen, met als doel informatie of inzichten te delen.",
+                "en": "Non-fiction encompasses works based on facts and real events, aiming to inform or provide insight.",
+                "fr": "La non-fiction regroupe des œuvres basées sur des faits et des événements réels, dans le but d'informer ou d'apporter un éclairage.",
+                "de": "Sachbücher beinhalten Werke, die auf Fakten und realen Ereignissen basieren und darauf abzielen, zu informieren oder Einsicht zu vermitteln."
+            }
         },
         {
             "id": "1.10.8.0.0",
             "domain": "theme",
             "name": {
                 "nl": "Strips",
-                "fr": "Bandes dessin\u00e9s",
+                "fr": "Bandes dessinés",
                 "de": "Comics",
                 "en": "Comic books"
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Strips zijn een combinatie van tekst en beeld die verhalen vertellen via opeenvolgende illustraties, vaak in een humoristische of avontuurlijke stijl.",
+                "en": "Comic books combine text and illustrations to tell stories through sequential art, often in a humorous or adventurous style.",
+                "fr": "Les bandes dessinées associent texte et illustration pour raconter des histoires sous forme d'art séquentiel, souvent humoristique ou aventureux.",
+                "de": "Comics verbinden Text und Illustration, um Geschichten durch sequentielle Kunst darzustellen, oft humorvoll oder abenteuerlich."
+            }
         },
         {
             "id": "1.64.0.0.0",
@@ -728,7 +1427,13 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Dit thema richt zich op ecologie, duurzaamheid en de relatie tussen mens en natuurlijke omgeving.",
+                "en": "This theme focuses on ecology, sustainability, and the relationship between humans and the natural environment.",
+                "fr": "Ce thème traite de l’écologie, du développement durable et des relations entre l’homme et l’environnement naturel.",
+                "de": "Dieses Thema behandelt Ökologie, Nachhaltigkeit und das Verhältnis zwischen Mensch und natürlicher Umwelt."
+            }
         },
         {
             "id": "1.8.1.0.0",
@@ -741,7 +1446,13 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Klassieke muziek verwijst naar de gecomponeerde muziek van traditie, vaak uitgevoerd door orkesten of kamermuziekensembles en gekenmerkt door complexe structuren en harmonieën.",
+                "en": "Classical music refers to composed music rooted in tradition, often performed by orchestras or chamber ensembles, known for its complex structures and harmonies.",
+                "fr": "La musique classique désigne la musique composée issue de la tradition, souvent interprétée par des orchestres ou des ensembles de chambre, avec des structures et harmonies complexes.",
+                "de": "Klassische Musik bezeichnet komponierte Musik der Tradition, oft von Orchestern oder Kammermusikensembles aufgeführt, mit komplexen Strukturen und Harmonien."
+            }
         },
         {
             "id": "1.8.2.0.0",
@@ -754,7 +1465,13 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Jazz en blues zijn muziekgenres met wortels in Afro-Amerikaanse tradities, gekenmerkt door improvisatie, expressieve ritmes en soulvolle melodieën.",
+                "en": "Jazz and blues are music genres rooted in African-American traditions, characterized by improvisation, expressive rhythms, and soulful melodies.",
+                "fr": "Le jazz et le blues sont des genres musicaux issus des traditions afro-américaines, caractérisés par l'improvisation, des rythmes expressifs et des mélodies pleines d'âme.",
+                "de": "Jazz und Blues sind Musikrichtungen mit afroamerikanischen Wurzeln, geprägt von Improvisation, ausdrucksstarken Rhythmen und gefühlvollen Melodien."
+            }
         },
         {
             "id": "1.8.3.1.0",
@@ -767,7 +1484,13 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Pop en rock zijn populaire muziekstijlen met een brede aantrekkingskracht, vaak gekenmerkt door pakkende melodieën, gitaargeluid en ritmische structuur.",
+                "en": "Pop and rock are mainstream music styles known for catchy melodies, guitar-driven sounds, and rhythmic structure.",
+                "fr": "La pop et le rock sont des styles musicaux populaires aux mélodies accrocheuses, aux sons de guitare dominants et à la structure rythmique marquée.",
+                "de": "Pop und Rock sind populäre Musikrichtungen mit eingängigen Melodien, gitarrenbetontem Sound und rhythmischer Struktur."
+            }
         },
         {
             "id": "1.8.3.2.0",
@@ -780,7 +1503,13 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Hip hop, R&B en rap zijn stedelijke muziekgenres waarin ritme, tekst en beat centraal staan, vaak met een maatschappelijke of persoonlijke boodschap.",
+                "en": "Hip hop, R&B, and rap are urban music genres centered around rhythm, lyrics, and beats, often carrying social or personal messages.",
+                "fr": "Le hip-hop, le R&B et le rap sont des genres urbains où dominent le rythme, les paroles et les beats, souvent porteurs de messages sociaux ou personnels.",
+                "de": "Hip-Hop, R&B und Rap sind urbane Musikrichtungen mit Fokus auf Rhythmus, Text und Beats, oft mit sozialer oder persönlicher Botschaft."
+            }
         },
         {
             "id": "1.8.3.3.0",
@@ -793,7 +1522,13 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Dance muziek is elektronische muziek gericht op beweging en ritme, vaak gespeeld in clubs of festivals met een sterke beat.",
+                "en": "Dance music is electronic music focused on movement and rhythm, often played in clubs or festivals with a strong beat.",
+                "fr": "La musique de danse est une musique électronique axée sur le mouvement et le rythme, fréquemment diffusée dans les clubs ou festivals.",
+                "de": "Tanzmusik ist elektronische Musik mit Fokus auf Bewegung und Rhythmus, häufig in Clubs oder auf Festivals gespielt."
+            }
         },
         {
             "id": "1.8.4.0.0",
@@ -806,7 +1541,13 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Folk- en wereldmuziek omvat traditionele en etnische muziekstijlen van verschillende culturen, vaak met authentieke instrumenten en verhalen.",
+                "en": "Folk and world music encompasses traditional and ethnic music styles from diverse cultures, often using authentic instruments and storytelling.",
+                "fr": "La musique folklorique et mondiale regroupe des styles musicaux traditionnels et ethniques de cultures diverses, souvent accompagnés d'instruments authentiques et de récits.",
+                "de": "Folk- und Weltmusik umfasst traditionelle und ethnische Musikstile aus verschiedenen Kulturen mit authentischen Instrumenten und erzählendem Charakter."
+            }
         },
         {
             "id": "1.8.3.5.0",
@@ -819,33 +1560,51 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Amusementsmuziek is lichte muziek bedoeld voor ontspanning en vermaak, variërend van cabaret tot schlager en variété.",
+                "en": "Cabaret music is light-hearted music designed for entertainment and amusement, ranging from cabaret to schlager and variety styles.",
+                "fr": "La musique de divertissement est une musique légère destinée à amuser et divertir, allant du cabaret au schlager en passant par le variétés.",
+                "de": "Unterhaltungsmusik ist leichte Musik zur Entspannung und Unterhaltung, von Kabarett über Schlager bis zu Varieté."
+            }
         },
         {
             "id": "1.52.0.0.0",
             "domain": "theme",
             "name": {
                 "nl": "Politiek en maatschappij",
-                "fr": "Politique et soci\u00e9t\u00e9",
+                "fr": "Politique et société",
                 "de": "Politik und Gesellschaft",
                 "en": "Politics and society"
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Activiteiten en thema’s die inzicht geven in politieke systemen, maatschappelijke structuren en sociaal engagement, waaronder debatten, burgerparticipatie en mensenrechten.",
+                "en": "Activities and topics that explore political systems, social structures, and civic engagement, including debates, citizen participation, and human rights.",
+                "fr": "Activités et thématiques explorant les systèmes politiques, les structures sociales et l’engagement citoyen, tels que les débats, la participation civile et les droits humains.",
+                "de": "Veranstaltungen und Themen rund um politische Systeme, gesellschaftliche Strukturen und bürgerschaftliches Engagement, wie Debatten, Mitbestimmung und Menschenrechte."
+            }
         },
         {
             "id": "1.42.0.0.0",
             "domain": "theme",
             "name": {
                 "nl": "Creativiteit",
-                "fr": "Cr\u00e9ativit\u00e9",
-                "de": "Kreativit\u00e4t",
+                "fr": "Créativité",
+                "de": "Kreativität",
                 "en": "Creativity"
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Focust op het stimuleren van verbeelding, originele expressie en innovatief denken, vaak via workshops, experimenten of interdisciplinaire kunstvormen.",
+                "en": "Focuses on stimulating imagination, original expression, and innovative thinking, often through workshops, experimentation, or interdisciplinary art.",
+                "fr": "Se concentre sur la stimulation de l’imagination, de l’expression originale et de la pensée innovante, souvent par le biais d’ateliers ou de formes artistiques croisées.",
+                "de": "Zielt auf die Förderung von Vorstellungskraft, originellem Ausdruck und innovativem Denken ab – häufig durch Workshops, Experimente oder interdisziplinäre Kunstformen."
+            }
         },
         {
             "id": "1.21.0.0.0",
@@ -858,20 +1617,32 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Thema's rond digitale technologieën, programmeren, robotica, artificiële intelligentie en technologische innovatie, met aandacht voor zowel praktische als ethische aspecten.",
+                "en": "Themes related to digital technologies, programming, robotics, artificial intelligence, and technological innovation, including both practical and ethical perspectives.",
+                "fr": "Thématiques liées aux technologies numériques, à la programmation, à la robotique, à l’intelligence artificielle et à l’innovation, intégrant des réflexions éthiques et pratiques.",
+                "de": "Themen rund um digitale Technologien, Programmierung, Robotik, Künstliche Intelligenz und Innovation – mit Fokus auf praktische und ethische Dimensionen."
+            }
         },
         {
             "id": "1.37.0.0.0",
             "domain": "theme",
             "name": {
                 "nl": "Opvoeding",
-                "fr": "\u00c9ducation",
+                "fr": "Éducation",
                 "de": "Bildung",
                 "en": "Education"
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Activiteiten gericht op pedagogiek, ouderlijk engagement, leren en ontwikkelen in alle levensfasen, zowel formeel als informeel.",
+                "en": "Activities focused on pedagogy, parental involvement, and lifelong learning, covering both formal and informal educational contexts.",
+                "fr": "Activités centrées sur la pédagogie, l’engagement parental et l’apprentissage tout au long de la vie, dans des contextes formels et informels.",
+                "de": "Veranstaltungen zur Pädagogik, Elternbeteiligung und lebenslangem Lernen, sowohl im formellen als auch informellen Bildungsbereich."
+            }
         },
         {
             "id": "1.61.0.0.0",
@@ -884,7 +1655,13 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Thematiek rond persoonlijke ontwikkeling, sociale vaardigheden, vriendschap, familiebanden, liefde en identiteit in een maatschappelijke context.",
+                "en": "Topics on personal growth, social skills, friendship, family, love, and identity within a societal framework.",
+                "fr": "Thèmes liés au développement personnel, aux relations sociales, à l’amitié, à la famille, à l’amour et à l’identité dans un cadre sociétal.",
+                "de": "Themen zu persönlicher Entwicklung, sozialen Kompetenzen, Freundschaft, Familie, Liebe und Identität im gesellschaftlichen Kontext."
+            }
         },
         {
             "id": "1.43.0.0.0",
@@ -897,7 +1674,13 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Activiteiten die culturele diversiteit, inclusie en intermenselijk begrip bevorderen door uitwisseling, dialoog en reflectie.",
+                "en": "Activities that promote cultural diversity, inclusion, and mutual understanding through exchange, dialogue, and reflection.",
+                "fr": "Activités favorisant la diversité culturelle, l’inclusion et la compréhension mutuelle via l’échange, le dialogue et la réflexion.",
+                "de": "Veranstaltungen zur Förderung von kultureller Vielfalt, Inklusion und gegenseitigem Verständnis durch Austausch, Dialog und Reflexion."
+            }
         },
         {
             "id": "1.41.0.0.0",
@@ -910,7 +1693,13 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Initiatieven die artistieke expressie, kunstbeschouwing en creativiteit stimuleren via educatieve trajecten en participatieve kunstpraktijken.",
+                "en": "Initiatives that foster artistic expression, art appreciation, and creativity through educational pathways and participatory art practices.",
+                "fr": "Initiatives stimulant l’expression artistique, l’appréciation de l’art et la créativité par des parcours éducatifs et des pratiques participatives.",
+                "de": "Initiativen zur Förderung von künstlerischem Ausdruck, Kunstverständnis und Kreativität durch Bildungsangebote und partizipative Kunstformen."
+            }
         },
         {
             "id": "1.51.13.0.0",
@@ -918,25 +1707,37 @@
             "name": {
                 "nl": "Bal en racketsport",
                 "fr": "Sports au ballons et raquettes",
-                "de": "Ball und Schl\u00e4ger",
+                "de": "Ball und Schläger",
                 "en": "Ball and racket sports"
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Sportieve activiteiten waarbij gebruik wordt gemaakt van ballen of rackets, zoals tennis, padel, squash, voetbal en volleybal.",
+                "en": "Sports activities involving balls or rackets, such as tennis, padel, squash, football, and volleyball.",
+                "fr": "Activités sportives utilisant des balles ou raquettes, telles que le tennis, le padel, le squash, le football ou le volley-ball.",
+                "de": "Sportarten mit Bällen oder Schlägern, wie Tennis, Padel, Squash, Fußball oder Volleyball."
+            }
         },
         {
             "id": "1.51.14.0.0",
             "domain": "theme",
             "name": {
                 "nl": "Atletiek, wandelen en fietsen",
-                "fr": "Athl\u00e9tisme, marche et cyclisme",
+                "fr": "Athlétisme, marche et cyclisme",
                 "de": "Leichtathletik, Wandern und Radfahren",
                 "en": "Athletics, running and cycling"
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Activiteiten gericht op individuele uithoudingssporten zoals lopen, fietsen en wandelen, in recreatieve of competitieve vorm.",
+                "en": "Activities focused on endurance sports such as running, cycling, and hiking, either recreationally or competitively.",
+                "fr": "Activités centrées sur des sports d’endurance comme la course, le vélo et la marche, en mode loisir ou compétition.",
+                "de": "Veranstaltungen rund um Ausdauersportarten wie Laufen, Radfahren oder Wandern – sowohl freizeitorientiert als auch wettbewerbsbezogen."
+            }
         },
         {
             "id": "1.51.3.0.0",
@@ -949,7 +1750,13 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Alle sportieve en recreatieve activiteiten in of op het water, zoals zwemmen, kajakken, zeilen en surfen.",
+                "en": "All sports and recreational activities in or on water, such as swimming, kayaking, sailing, and surfing.",
+                "fr": "Ensemble des activités sportives ou récréatives aquatiques comme la natation, le kayak, la voile ou le surf.",
+                "de": "Alle sportlichen und freizeitlichen Aktivitäten im oder auf dem Wasser wie Schwimmen, Kajak, Segeln oder Surfen."
+            }
         },
         {
             "id": "1.51.6.0.0",
@@ -962,7 +1769,13 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Thematiek rond fysieke training, lichaamsbeheersing, expressie en discipline, met activiteiten zoals yoga, dans, boksen en turnen.",
+                "en": "Themes related to physical training, body control, expression, and discipline, including yoga, dance, boxing, and gymnastics.",
+                "fr": "Thèmes liés à l'entraînement physique, la maîtrise du corps, l'expression et la discipline, à travers le yoga, la danse, la boxe ou la gymnastique.",
+                "de": "Themen zu körperlichem Training, Körperbeherrschung, Ausdruck und Disziplin, etwa durch Yoga, Tanz, Boxen oder Turnen."
+            }
         },
         {
             "id": "1.51.11.0.0",
@@ -975,7 +1788,13 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Fysiek uitdagende sporten in de buitenlucht zoals klimmen, kajakken, trailrunning of survival, met focus op avontuur en natuurbeleving.",
+                "en": "Physically challenging outdoor sports such as climbing, kayaking, trail running, or survival, emphasizing adventure and nature experience.",
+                "fr": "Sports de plein air exigeants comme l'escalade, le kayak, le trail ou le survivalisme, axés sur l'aventure et le contact avec la nature.",
+                "de": "Körperlich fordernde Outdoor-Aktivitäten wie Klettern, Kajakfahren, Trailrunning oder Survivaltraining mit Fokus auf Abenteuer und Naturerlebnis."
+            }
         },
         {
             "id": "1.58.8.0.0",
@@ -988,7 +1807,13 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Sporten waarbij snelheid, techniek en voertuigen centraal staan, zoals autoracen, motorcross, luchtvaartshows en dronecompetities.",
+                "en": "Sports focused on speed, technology, and vehicles, including car racing, motocross, air shows, and drone competitions.",
+                "fr": "Sports axés sur la vitesse, la technologie et les véhicules : courses automobiles, motocross, spectacles aériens et compétitions de drones.",
+                "de": "Sportarten mit Fokus auf Geschwindigkeit, Technik und Fahrzeuge, etwa Autorennen, Motocross, Flugshows oder Drohnenwettbewerbe."
+            }
         },
         {
             "id": "1.51.10.0.0",
@@ -1001,7 +1826,13 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Traditionele of regionale sportvormen met een sociaal of cultureel karakter, zoals boogschieten, kegelen of gansrijden.",
+                "en": "Traditional or regional sports with social or cultural significance, such as archery, bowling, or goose riding.",
+                "fr": "Sports traditionnels ou régionaux à caractère culturel ou social, tels que le tir à l'arc, le jeu de quilles ou le jeu de l'oie.",
+                "de": "Traditionelle oder regionale Sportarten mit kulturellem oder gesellschaftlichem Bezug, etwa Bogenschießen, Kegeln oder Gänsereiten."
+            }
         },
         {
             "id": "1.51.12.0.0",
@@ -1014,85 +1845,127 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Verzamelthema voor sportevenementen die meerdere disciplines combineren of niet in de klassieke sportcategorieën vallen.",
+                "en": "Umbrella theme for sports events that combine multiple disciplines or fall outside traditional sports categories.",
+                "fr": "Thème générique pour les événements sportifs combinant plusieurs disciplines ou échappant aux catégories classiques.",
+                "de": "Sammelbegriff für Sportveranstaltungen mit mehreren Disziplinen oder außerhalb klassischer Sportkategorien."
+            }
         },
         {
             "id": "1.3.1.0.0",
             "domain": "theme",
             "name": {
                 "nl": "Tekst en muziektheater",
-                "fr": "Th\u00e9\u00e2tre dramatique et musical",
+                "fr": "Théâtre dramatique et musical",
                 "de": "Text und Musik",
                 "en": "Theatre and Musical theatre"
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Podiumkunsten waarin gesproken tekst en muziek elkaar versterken, zoals toneelstukken met live muziek of muziektheater.",
+                "en": "Performing arts combining spoken text and music, such as plays with live music or musical theatre.",
+                "fr": "Arts de la scène mêlant texte parlé et musique, tels que les pièces musicales ou le théâtre chanté.",
+                "de": "Darstellende Künste, in denen gesprochener Text und Musik interagieren, wie Musiktheater oder gesprochene Oper."
+            }
         },
         {
             "id": "1.3.10.0.0",
             "domain": "theme",
             "name": {
                 "nl": "Humor en comedy",
-                "fr": "L'humour et la com\u00e9die",
+                "fr": "L'humour et la comédie",
                 "de": "Humor und comedy",
                 "en": "Humor and comedy"
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Voorstellingen en activiteiten gericht op humor, satire of cabaret, met als doel het publiek te amuseren of maatschappijkritiek te brengen.",
+                "en": "Performances and events focused on humor, satire, or cabaret, aimed at entertaining or offering social commentary.",
+                "fr": "Spectacles et événements humoristiques, satiriques ou de cabaret, destinés à divertir ou critiquer la société.",
+                "de": "Veranstaltungen rund um Humor, Satire oder Kabarett, mit Unterhaltungswert oder gesellschaftskritischem Ansatz."
+            }
         },
         {
             "id": "1.4.0.0.0",
             "domain": "theme",
             "name": {
                 "nl": "Musical",
-                "fr": "Com\u00e9die musicale",
+                "fr": "Comédie musicale",
                 "de": "Musical",
                 "en": "Musical"
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Theatergenre waarbij muziek, zang, dans en drama samenkomen in een verhalende voorstelling met vaak spectaculair karakter.",
+                "en": "Theatre genre that combines music, singing, dance, and drama in a narrative performance, often with a spectacular flair.",
+                "fr": "Genre théâtral mêlant musique, chant, danse et drame dans un spectacle narratif souvent spectaculaire.",
+                "de": "Bühnengenre, das Musik, Gesang, Tanz und Drama in einer erzählerischen, oft spektakulären Inszenierung vereint."
+            }
         },
         {
             "id": "1.3.5.0.0",
             "domain": "theme",
             "name": {
                 "nl": "Figuren en poppentheater",
-                "fr": "Th\u00e9\u00e2tre de marionnettes",
+                "fr": "Théâtre de marionnettes",
                 "de": "Figuren und Marionetten",
                 "en": "Puppetry"
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Podiumvorm waarin poppen, objecten of figuren tot leven worden gebracht door spelers, vaak gericht op kinderen maar ook op volwassenen.",
+                "en": "Form of theatre where puppets, objects, or figures are animated by performers, often aimed at children but also for adults.",
+                "fr": "Forme de théâtre animant des marionnettes ou objets, souvent destinée aux enfants mais aussi aux adultes.",
+                "de": "Theaterform, bei der Puppen, Figuren oder Objekte durch Spieler zum Leben erweckt werden – für Kinder und Erwachsene."
+            }
         },
         {
             "id": "1.5.0.0.0",
             "domain": "theme",
             "name": {
                 "nl": "Opera en operette",
-                "fr": "Op\u00e9ra et op\u00e9rette",
+                "fr": "Opéra et opérette",
                 "de": "Oper und Operette",
                 "en": "Opera and operetta"
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Klassieke muziektheatergenres waarin zang, orkestmuziek en scenografie samenkomen, variërend van tragisch tot luchtig.",
+                "en": "Classical musical theatre genres combining singing, orchestral music, and stage design, ranging from tragic to light-hearted.",
+                "fr": "Genres de théâtre musical classique mêlant chant, musique orchestrale et scénographie – du tragique au léger.",
+                "de": "Klassische Musiktheaterformen mit Gesang, Orchester und Bühnenbild – von dramatisch bis heiter."
+            }
         },
         {
             "id": "1.3.4.0.0",
             "domain": "theme",
             "name": {
                 "nl": "Mime en bewegingstheater",
-                "fr": "Mime et the\u00e9\u00e2tre de mouvements",
+                "fr": "Mime et theéâtre de mouvements",
                 "de": "Mime und Bewegungstheater",
-                "en": "Mime "
+                "en": "Mime"
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Theatervorm waarbij lichaamstaal, expressie en fysieke beweging de hoofdrol spelen, vaak zonder gesproken tekst.",
+                "en": "Form of theatre where body language, expression, and movement take center stage, often without spoken words.",
+                "fr": "Théâtre basé sur le langage corporel, l’expression et le mouvement, souvent sans paroles.",
+                "de": "Theaterform, bei der Körpersprache, Ausdruck und Bewegung im Mittelpunkt stehen – meist ohne gesprochene Sprache."
+            }
         },
         {
             "id": "1.25.0.0.0",
@@ -1105,7 +1978,13 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Activiteiten rond kennisontwikkeling, onderzoek en technologie, waaronder lezingen, experimenten en publiekswetenschap.",
+                "en": "Activities related to knowledge development, research, and technology, including lectures, experiments, and science communication.",
+                "fr": "Activités liées à la recherche, au savoir et à la technologie : conférences, expériences ou vulgarisation scientifique.",
+                "de": "Veranstaltungen zu Forschung, Wissensvermittlung und Technologie, wie Vorträge, Experimente oder populärwissenschaftliche Formate."
+            }
         },
         {
             "id": "1.44.0.0.0",
@@ -1118,42 +1997,22 @@
             },
             "scope": [
                 "events"
-            ]
+            ],
+            "description": {
+                "nl": "Thema’s die reflectie, levensbeschouwing, ethiek en spiritualiteit centraal stellen, vaak in dialoog of lezingvorm.",
+                "en": "Themes centered on reflection, worldview, ethics, and spirituality, often explored through dialogue or lectures.",
+                "fr": "Thèmes autour de la réflexion, des visions du monde, de l’éthique et de la spiritualité, via conférences ou échanges.",
+                "de": "Themen über Reflexion, Weltanschauung, Ethik und Spiritualität – oft in Form von Vorträgen oder Dialogen."
+            }
         },
         {
             "id": "1.58.0.0.0",
             "domain": "theme",
             "name": {
                 "nl": "Thema onbepaald",
-                "fr": "Th\u00e8me non d\u00e9fini",
+                "fr": "Thème non défini",
                 "de": "unbestimmt",
                 "en": "Theme undefined"
-            },
-            "scope": [
-                "events"
-            ]
-        },
-        {
-            "id": "3.14.0.0.0",
-            "domain": "facility",
-            "name": {
-                "nl": "Educatieve dienstverlening",
-                "fr": "Services \u00e9ducatifs",
-                "de": "Bildungsleistungen",
-                "en": "Educational service"
-            },
-            "scope": [
-                "events"
-            ]
-        },
-        {
-            "id": "0.51.0.0.0",
-            "domain": "eventtype",
-            "name": {
-                "nl": "Type onbepaald",
-                "fr": "Cat\u00e9gorie non d\u00e9termin\u00e9",
-                "de": "unbestimmt",
-                "en": "Type undefined"
             },
             "scope": [
                 "events"
@@ -1190,7 +2049,7 @@
             "domain": "theme",
             "name": {
                 "nl": "Gezondheid en zorg",
-                "fr": "Sant\u00e9 et soins",
+                "fr": "Santé et soins",
                 "de": "Gesundheit und Pflege",
                 "en": "Health and care"
             },
@@ -1203,102 +2062,15 @@
             "domain": "theme",
             "name": {
                 "nl": "Samenleving",
-                "fr": "Vivre en soci\u00e9t\u00e9",
+                "fr": "Vivre en société",
                 "de": "Gesellschaft",
                 "en": "Society"
             },
-            "scope": [
-                "events"
-            ]
-        },
-        {
-            "id": "3.23.1.0.0",
-            "domain": "facility",
-            "name": {
-                "nl": "Voorzieningen voor rolstoelgebruikers",
-                "fr": "Facilit\u00e9s pour fauteuils roulants",
-                "de": "EInrichtung f\u00fcr Rollstuhlfahrer",
-                "en": "Wheelchair facilities"
-            },
-            "scope": [
-                "events"
-            ]
-        },
-        {
-            "id": "3.23.2.0.0",
-            "domain": "facility",
-            "name": {
-                "nl": "Assistentie",
-                "fr": "Assistance",
-                "de": "Hilfe",
-                "en": "Assistance"
-            },
-            "scope": [
-                "events"
-            ]
-        },
-        {
-            "id": "3.23.3.0.0",
-            "domain": "facility",
-            "name": {
-                "nl": "Rolstoel ter beschikking",
-                "fr": "Disponibilit\u00e9 de fauteuils roulants",
-                "de": "Rollstuhl verf\u00fcgbar",
-                "en": "Wheelchair available"
-            },
-            "scope": [
-                "events",
-                "places"
-            ]
-        },
-        {
-            "id": "3.13.1.0.0",
-            "domain": "facility",
-            "name": {
-                "nl": "Voorzieningen voor assistentiehonden",
-                "fr": "Facilit\u00e9s de chiens d'assistance",
-                "de": "Einrichtung f\u00fcr Begleithunden",
-                "en": "Facilities for guide dogs"
-            },
-            "scope": [
-                "events",
-                "places"
-            ]
-        },
-        {
-            "id": "3.13.2.0.0",
-            "domain": "facility",
-            "name": {
-                "nl": "Audiodescriptie",
-                "fr": "Audiod\u00e9scription",
-                "de": "Audio-Beschreibung",
-                "en": "Audiodescription"
-            },
-            "scope": [
-                "events"
-            ]
-        },
-        {
-            "id": "3.17.1.0.0",
-            "domain": "facility",
-            "name": {
-                "nl": "Ringleiding",
-                "fr": "Boucle auditive",
-                "de": "Audio Induktionsschleife",
-                "en": "Audio induction loop"
-            },
-            "scope": [
-                "events"
-            ]
-        },
-        {
-            "id": "3.17.3.0.0",
-            "domain": "facility",
-            "name": {
-                "nl": "Boven- of ondertiteling",
-                "fr": "Soustitrages",
-                "de": "Untertitel",
-                "en": "Subtitles"
+            "description": {
+                "nl": "Activiteiten rond maatschappelijke structuren, sociale dynamiek en hoe mensen samenleven in gemeenschappen.",
+                "fr": "Activités liées à la structure sociale, aux dynamiques collectives et à la vie en communauté.",
+                "de": "Veranstaltungen über gesellschaftliche Strukturen, soziales Zusammenleben und Gemeinschaften.",
+                "en": "Events focusing on social structures, collective dynamics, and how people live together in communities."
             },
             "scope": [
                 "events"
@@ -1309,9 +2081,15 @@
             "domain": "theme",
             "name": {
                 "nl": "Thriller",
-                "fr": "Films \u00e0 suspense",
+                "fr": "Films à suspense",
                 "de": "Thriller",
                 "en": "Thriller"
+            },
+            "description": {
+                "nl": "Films die spanning en mysterie opbouwen, vaak met onverwachte wendingen en psychologische diepgang.",
+                "fr": "Films mettant en scène du suspense, des rebondissements et une tension psychologique marquée.",
+                "de": "Spannende Filme mit unerwarteten Wendungen und psychologischer Tiefe.",
+                "en": "Films characterized by suspense, unexpected twists, and psychological tension."
             },
             "scope": [
                 "events"
@@ -1323,8 +2101,14 @@
             "name": {
                 "nl": "Voeding",
                 "fr": "Nutrition",
-                "de": "Ern\u00e4hrung",
+                "de": "Ernährung",
                 "en": "Nutrition"
+            },
+            "description": {
+                "nl": "Thema’s over voeding, eetgewoonten, gezondheid en duurzaam voedselbeleid.",
+                "fr": "Thèmes liés à l’alimentation, aux habitudes alimentaires, à la santé et aux politiques durables.",
+                "de": "Themen rund um Ernährung, Essgewohnheiten, Gesundheit und nachhaltige Lebensmittelstrategien.",
+                "en": "Topics covering food, eating habits, health, and sustainable food policies."
             },
             "scope": [
                 "events"
@@ -1335,414 +2119,15 @@
             "domain": "theme",
             "name": {
                 "nl": "Economie",
-                "fr": "\u00c9conomie",
+                "fr": "Économie",
                 "de": "Wirtschaft",
                 "en": "Economy"
             },
-            "scope": [
-                "events"
-            ]
-        },
-        {
-            "id": "3CuHvenJ+EGkcvhXLg9Ykg",
-            "domain": "eventtype",
-            "name": {
-                "nl": "Archeologische site",
-                "fr": "Site arch\u00e9ologique",
-                "de": "Arch\u00e4ologische St\u00e4tte",
-                "en": "Archaeological site"
-            },
-            "scope": [
-                "places"
-            ]
-        },
-        {
-            "id": "rJRFUqmd6EiqTD4c7HS90w",
-            "domain": "eventtype",
-            "name": {
-                "nl": "School of onderwijscentrum",
-                "fr": "\u00c9cole ou centre \u00e9ducatif",
-                "de": "Schule oder Bildungszentrum",
-                "en": "School or educational centre"
-            },
-            "scope": [
-                "places"
-            ]
-        },
-        {
-            "id": "eBwaUAAhw0ur0Z02i5ttnw",
-            "domain": "eventtype",
-            "name": {
-                "nl": "Sportcentrum",
-                "fr": "Centre sportif",
-                "de": "Sportzentrum",
-                "en": "Sports Centre"
-            },
-            "scope": [
-                "places"
-            ]
-        },
-        {
-            "id": "VRC6HX0Wa063sq98G5ciqw",
-            "domain": "eventtype",
-            "name": {
-                "nl": "Winkel",
-                "fr": "Magasin",
-                "de": "Laden",
-                "en": "Shop"
-            },
-            "scope": [
-                "places"
-            ]
-        },
-        {
-            "id": "GnPFp9uvOUyqhOckIFMKmg",
-            "domain": "eventtype",
-            "name": {
-                "nl": "Museum of galerij",
-                "fr": "Mus\u00e9e ou galerie",
-                "de": "Museum oder Galerie",
-                "en": "Museum or gallery"
-            },
-            "scope": [
-                "places"
-            ]
-        },
-        {
-            "id": "JCjA0i5COUmdjMwcyjNAFA",
-            "domain": "eventtype",
-            "name": {
-                "nl": "Jeugdhuis of jeugdcentrum",
-                "fr": "Maison de jeunes ou centre de jeunesse",
-                "de": "Jugendzentrum",
-                "en": "Youth centre"
-            },
-            "scope": [
-                "places"
-            ]
-        },
-        {
-            "id": "Yf4aZBfsUEu2NsQqsprngw",
-            "domain": "eventtype",
-            "name": {
-                "nl": "Cultuur- of ontmoetingscentrum",
-                "fr": "Centre culturel ou centre de r\u00e9union",
-                "de": "Kultur- oder Begegnungszentrum",
-                "en": "Cultural centre"
-            },
-            "scope": [
-                "places"
-            ]
-        },
-        {
-            "id": "YVBc8KVdrU6XfTNvhMYUpg",
-            "domain": "eventtype",
-            "name": {
-                "nl": "Discotheek",
-                "fr": "Discoth\u00e8que",
-                "de": "Diskothek",
-                "en": "Nightclub"
-            },
-            "scope": [
-                "places"
-            ]
-        },
-        {
-            "id": "kI7uAyn2uUu9VV6Z3uWZTA",
-            "domain": "eventtype",
-            "name": {
-                "nl": "Bibliotheek of documentatiecentrum",
-                "fr": "Biblioth\u00e8que ou centre de documentation",
-                "de": "Bibliothek oder Dokumentationszentrum",
-                "en": "Library or documentation centre"
-            },
-            "scope": [
-                "places"
-            ]
-        },
-        {
-            "id": "BtVNd33sR0WntjALVbyp3w",
-            "domain": "eventtype",
-            "name": {
-                "nl": "Bioscoop",
-                "fr": "Cin\u00e9ma",
-                "de": "Kino",
-                "en": "Cinema"
-            },
-            "scope": [
-                "places"
-            ]
-        },
-        {
-            "id": "ekdc4ATGoUitCa0e6me6xA",
-            "domain": "eventtype",
-            "name": {
-                "nl": "Horeca",
-                "fr": "Horeca",
-                "de": "Gastgewerbe",
-                "en": "Hospitality"
-            },
-            "scope": [
-                "places"
-            ]
-        },
-        {
-            "id": "wwjRVmExI0w6xfQwT1KWpx",
-            "domain": "eventtype",
-            "name": {
-                "nl": "Speeltuin",
-                "fr": "Aire de jeu",
-                "de": "Spielplatz",
-                "en": "Playground"
-            },
-            "scope": [
-                "places"
-            ]
-        },
-        {
-            "id": "OyaPaf64AEmEAYXHeLMAtA",
-            "domain": "eventtype",
-            "name": {
-                "nl": "Zaal of expohal",
-                "fr": "Hall ou salle d'expo",
-                "de": "Saal oder Expo-Halle",
-                "en": "Hall or exhibition hall"
-            },
-            "scope": [
-                "places"
-            ]
-        },
-        {
-            "id": "0.8.0.0.0",
-            "domain": "eventtype",
-            "name": {
-                "nl": "Openbare ruimte",
-                "fr": "Espace public",
-                "de": "Der \u00f6ffentliche Raum",
-                "en": "Public space"
-            },
-            "scope": [
-                "places"
-            ]
-        },
-        {
-            "id": "3.25.0.0.0",
-            "domain": "facility",
-            "name": {
-                "nl": "Contactpunt voor personen met handicap",
-                "fr": "point de contact pour les personnes avec un handicap",
-                "de": "Kontakpunkt f\u00fcr Menschen mit Behinderung",
-                "en": "Point of contact for people with a disability"
-            },
-            "scope": [
-                "events",
-                "places"
-            ]
-        },
-        {
-            "id": "3.26.0.0.0",
-            "domain": "facility",
-            "name": {
-                "nl": "Parkeerplaats",
-                "fr": "Place de parking",
-                "de": "Behindertenparkplatz",
-                "en": "Parking area"
-            },
-            "scope": [
-                "events",
-                "places"
-            ]
-        },
-        {
-            "id": "3.27.0.0.0",
-            "domain": "facility",
-            "name": {
-                "nl": "Rolstoeltoegankelijk",
-                "fr": "Accessible en fauteuil roulant",
-                "de": "Rollstuhlgerecht",
-                "en": "Accessible for wheelchairs"
-            },
-            "scope": [
-                "events"
-            ]
-        },
-        {
-            "id": "3.28.0.0.0",
-            "domain": "facility",
-            "name": {
-                "nl": "Alternatieve ingang",
-                "fr": "Entr\u00e9e alternative",
-                "de": "Alternativer Eingang",
-                "en": "Alternative entrance"
-            },
-            "scope": [
-                "events"
-            ]
-        },
-        {
-            "id": "3.29.0.0.0",
-            "domain": "facility",
-            "name": {
-                "nl": "Gegarandeerd zicht",
-                "fr": "Vue garantie",
-                "de": "Gew\u00e4hrleistete Aussicht",
-                "en": "Guaranteed view"
-            },
-            "scope": [
-                "events"
-            ]
-        },
-        {
-            "id": "3.30.0.0.0",
-            "domain": "facility",
-            "name": {
-                "nl": "Rolstoelpodium",
-                "fr": "Podium sur\u00e9lev\u00e9",
-                "de": "Rollstuhlpodest",
-                "en": "Viewing platform"
-            },
-            "scope": [
-                "events"
-            ]
-        },
-        {
-            "id": "3.31.0.0.0",
-            "domain": "facility",
-            "name": {
-                "nl": "Toegankelijk sanitair",
-                "fr": "Installations sanitaires accesibles",
-                "de": "Sanit\u00e4ranlage f\u00fcr Rollstuhlbenutzer",
-                "en": "Accessible sanitary facilities"
-            },
-            "scope": [
-                "events"
-            ]
-        },
-        {
-            "id": "3.32.0.0.0",
-            "domain": "facility",
-            "name": {
-                "nl": "Voorbehouden camping",
-                "fr": "Camping r\u00e9serv\u00e9",
-                "de": "Reservierter Campingplatz",
-                "en": "Reserved campsite"
-            },
-            "scope": [
-                "events"
-            ]
-        },
-        {
-            "id": "3.33.0.0.0",
-            "domain": "facility",
-            "name": {
-                "nl": "Tolken Vlaamse Gebarentaal",
-                "fr": "Interpr\u00e8tes de langue de signes",
-                "de": "Geb\u00e4rdensprachdolmetscher",
-                "en": "Sign language interpreting service"
-            },
-            "scope": [
-                "events"
-            ]
-        },
-        {
-            "id": "3.34.0.0.0",
-            "domain": "facility",
-            "name": {
-                "nl": "Vereenvoudigde informatie",
-                "fr": "Information simplifi\u00e9e",
-                "de": "Vereinfachte Information",
-                "en": "Simplified information"
-            },
-            "scope": [
-                "events"
-            ]
-        },
-        {
-            "id": "3.36.0.0.0",
-            "domain": "facility",
-            "name": {
-                "nl": "Verzorgingsruimte",
-                "fr": "Salle de soins",
-                "de": "Pflegeraum",
-                "en": "Care room"
-            },
-            "scope": [
-                "events"
-            ]
-        },
-        {
-            "id": "3.37.0.0.0",
-            "domain": "facility",
-            "name": {
-                "nl": "Oplaadzone rolstoelen",
-                "fr": "Zone de chargement pour fauteuils roulants",
-                "de": "Aufladungsm\u00f6glichkeit f\u00fcr Rollstuhle",
-                "en": "Charging facility for wheelchairs"
-            },
-            "scope": [
-                "events"
-            ]
-        },
-        {
-            "id": "3.38.0.0.0",
-            "domain": "facility",
-            "name": {
-                "nl": "Inter-assistentie",
-                "fr": "Assistance sp\u00e9ciale",
-                "de": "Spezialhilfe",
-                "en": "Special assistance"
-            },
-            "scope": [
-                "events"
-            ]
-        },
-        {
-            "id": "3.39.0.0.0",
-            "domain": "facility",
-            "name": {
-                "nl": "Begeleiderspas bij gehandicapten",
-                "fr": "Carte d'accompagnateur",
-                "de": "Ausweis Begleitperson",
-                "en": "Carer pass"
-            },
-            "scope": [
-                "events"
-            ]
-        },
-        {
-            "id": "3.40.0.0.0",
-            "domain": "facility",
-            "name": {
-                "nl": "Inter-Toegankelijkheidsgarantie",
-                "fr": "Accessibilit\u00e9 garantie",
-                "de": "Zertifizierte Zug\u00e4nglichkeit",
-                "en": "Certified accessibility"
-            },
-            "scope": [
-                "events"
-            ]
-        },
-        {
-            "id": "H28fcfRKFQAQs00K9NF9hh",
-            "domain": "facility",
-            "name": {
-                "nl": "Prikkelarm aanbod",
-                "fr": "Offre faiblement incitative",
-                "de": "Anreizarmes Angebot",
-                "en": "Low incentive"
-            },
-            "scope": [
-                "events"
-            ]
-        },
-        {
-            "id": "4Vz9eZf0cnQmtfqcGGnNMF",
-            "domain": "facility",
-            "name": {
-                "nl": "Afspraken en voorspelbaarheid",
-                "fr": "Accords et pr\u00e9visibilit\u00e9",
-                "de": "Vereinbarungen und Vorhersehbarkeit",
-                "en": "Agreements and predictability"
+            "description": {
+                "nl": "Activiteiten over economie, financiën, arbeidsmarkt en maatschappelijke impact van economische systemen.",
+                "fr": "Activités traitant de l’économie, des finances, du marché du travail et de l’impact social des systèmes économiques.",
+                "de": "Veranstaltungen über Wirtschaft, Finanzen, Arbeitsmarkt und gesellschaftliche Auswirkungen ökonomischer Systeme.",
+                "en": "Events on economics, finance, labor markets, and the societal impact of economic systems."
             },
             "scope": [
                 "events"
@@ -1757,6 +2142,12 @@
                 "de": "Sprache und Kommunikation",
                 "en": "Language and communication"
             },
+            "description": {
+                "nl": "Initiatieven rond taalgebruik, meertaligheid, communicatievaardigheden en mediageletterdheid.",
+                "fr": "Initiatives autour du langage, du multilinguisme, de la communication et de l’éducation aux médias.",
+                "de": "Veranstaltungen über Sprache, Mehrsprachigkeit, Kommunikationsfähigkeiten und Medienkompetenz.",
+                "en": "Initiatives about language use, multilingualism, communication skills, and media literacy."
+            },
             "scope": [
                 "events"
             ]
@@ -1766,36 +2157,467 @@
             "domain": "theme",
             "name": {
                 "nl": "Themakamp",
-                "fr": "Camp th\u00e9matique",
+                "fr": "Camp thématique",
                 "de": "Themencamp",
                 "en": "Theme camp"
+            },
+            "description": {
+                "nl": "Kampen die een specifiek inhoudelijk thema uitwerken, vaak met educatief of creatief karakter.",
+                "fr": "Camps développant un thème spécifique, souvent à caractère éducatif ou créatif.",
+                "de": "Themencamps mit pädagogischem oder kreativem Schwerpunkt.",
+                "en": "Camps organized around a specific theme, often with an educational or creative focus."
             },
             "scope": [
                 "events"
             ]
         },
         {
-            "id": "0.3.1.0.1",
-            "domain": "eventtype",
+            "id": "3.6.0.0.0",
+            "domain": "facilities",
             "name": {
-                "nl": "Cursus met open sessies",
-                "fr": "Cours avec sessions ouvertes",
-                "de": "Kurs mit offenen Sitzungen",
-                "en": "Course with open sessions"
+                "nl": "Rolstoeltoegankelijk",
+                "fr": "Accessible en fauteuil roulant",
+                "de": "Rollstuhlgerecht",
+                "en": "Wheelchair accessible"
+            },
+            "description": {
+                "nl": "De locatie is toegankelijk voor mensen in een rolstoel, inclusief aangepaste ingangen, brede doorgangen en indien mogelijk aangepaste toiletten.",
+                "en": "The venue is accessible to individuals using a wheelchair, including adapted entrances, wide passages, and accessible restrooms where available.",
+                "fr": "Le lieu est accessible aux personnes en fauteuil roulant, avec des entrées adaptées, des passages larges et, si possible, des toilettes accessibles.",
+                "de": "Der Veranstaltungsort ist für Rollstuhlfahrer zugänglich, mit angepassten Eingängen, breiten Durchgängen und gegebenenfalls barrierefreien Toiletten."
             }
         },
         {
-            "id": "8.70.0.0.0",
-            "domain": "eventtype",
+            "id": "3.7.0.0.0",
+            "domain": "facilities",
             "name": {
-                "nl": "Theater",
-                "fr": "Th\u00e9\u00e2tre",
-                "de": "Theater",
-                "en": "Theatre"
+                "nl": "Toiletten",
+                "fr": "Toilettes",
+                "de": "Toiletten",
+                "en": "Toilets"
             },
-            "scope": [
-                "places"
-            ]
+            "description": {
+                "nl": "De locatie beschikt over sanitaire voorzieningen voor bezoekers, waaronder standaardtoiletten en mogelijk ook aangepaste voorzieningen.",
+                "en": "The venue provides restroom facilities for visitors, including standard toilets and potentially accessible options.",
+                "fr": "Le lieu dispose de sanitaires pour les visiteurs, y compris des toilettes standards et éventuellement des installations accessibles.",
+                "de": "Der Veranstaltungsort verfügt über sanitäre Einrichtungen für Besucher, einschließlich Standardtoiletten und gegebenenfalls barrierefreie Optionen."
+            }
+        },
+        {
+            "id": "3.9.0.0.0",
+            "domain": "facilities",
+            "name": {
+                "nl": "Parking",
+                "fr": "Parking",
+                "de": "Parkplatz",
+                "en": "Parking"
+            },
+            "description": {
+                "nl": "Er is parkeergelegenheid voorzien nabij of op de locatie, al dan niet gratis of met beperkte capaciteit.",
+                "en": "Parking is available near or at the venue, which may be free or limited in capacity.",
+                "fr": "Un parking est disponible à proximité ou sur le site, éventuellement gratuit ou avec une capacité limitée.",
+                "de": "Parkmöglichkeiten sind in der Nähe oder direkt am Veranstaltungsort vorhanden, möglicherweise kostenlos oder mit begrenzter Kapazität."
+            }
+        },
+        {
+            "id": "3.8.0.0.0",
+            "domain": "facilities",
+            "name": {
+                "nl": "Bereikbaar met openbaar vervoer",
+                "fr": "Accessible en transports en commun",
+                "de": "Mit öffentlichen Verkehrsmitteln erreichbar",
+                "en": "Accessible by public transport"
+            },
+            "description": {
+                "nl": "De locatie is eenvoudig bereikbaar met bus, tram of trein, meestal op loopafstand van een halte of station.",
+                "en": "The venue is easily reachable by bus, tram or train, typically within walking distance of a stop or station.",
+                "fr": "Le lieu est facilement accessible en bus, tram ou train, généralement à distance de marche d’un arrêt ou d’une gare.",
+                "de": "Der Veranstaltungsort ist gut mit Bus, Straßenbahn oder Zug erreichbar, in der Regel fußläufig von einer Haltestelle oder einem Bahnhof entfernt."
+            }
+        },
+        {
+            "id": "3.11.0.0.0",
+            "domain": "facilities",
+            "name": {
+                "nl": "Vestiaire",
+                "fr": "Vestiaire",
+                "de": "Garderobe",
+                "en": "Cloakroom"
+            },
+            "description": {
+                "nl": "De locatie beschikt over een vestiaire waar bezoekers hun jassen en tassen veilig kunnen achterlaten, al dan niet bewaakt.",
+                "en": "The venue offers a cloakroom where visitors can safely store their coats and bags, with or without supervision.",
+                "fr": "Le lieu dispose d'un vestiaire où les visiteurs peuvent laisser leurs manteaux et sacs en toute sécurité, surveillé ou non.",
+                "de": "Der Veranstaltungsort verfügt über eine Garderobe, in der Besucher ihre Jacken und Taschen sicher abgeben können, mit oder ohne Aufsicht."
+            }
+        },
+        {
+            "id": "3.12.0.0.0",
+            "domain": "facilities",
+            "name": {
+                "nl": "Eet- en drinkgelegenheid",
+                "fr": "Restauration et boissons",
+                "de": "Gastronomie",
+                "en": "Food and drinks available"
+            },
+            "description": {
+                "nl": "De locatie biedt mogelijkheden om eten en/of drank te kopen, zoals een café, bar of restaurant.",
+                "en": "The venue provides options to purchase food and/or drinks, such as a café, bar or restaurant.",
+                "fr": "Le lieu propose des options pour acheter de la nourriture et/ou des boissons, comme un café, un bar ou un restaurant.",
+                "de": "Am Veranstaltungsort gibt es Möglichkeiten, Speisen und/oder Getränke zu erwerben, etwa ein Café, eine Bar oder ein Restaurant."
+            }
+        },
+        {
+            "id": "3.13.0.0.0",
+            "domain": "facilities",
+            "name": {
+                "nl": "Kinderopvang aanwezig",
+                "fr": "Garde d'enfants disponible",
+                "de": "Kinderbetreuung vorhanden",
+                "en": "Childcare available"
+            },
+            "description": {
+                "nl": "Op de locatie is kinderopvang voorzien tijdens het evenement of de activiteit, zodat ouders onbezorgd kunnen deelnemen.",
+                "en": "Childcare is provided at the venue during the event or activity, allowing parents to participate worry-free.",
+                "fr": "Un service de garde d'enfants est proposé sur place pendant l'événement ou l'activité, permettant aux parents de participer en toute sérénité.",
+                "de": "Während der Veranstaltung oder Aktivität wird vor Ort eine Kinderbetreuung angeboten, sodass Eltern unbesorgt teilnehmen können."
+            }
+        },
+        {
+            "id": "3.15.0.0.0",
+            "domain": "facilities",
+            "name": {
+                "nl": "Wifi beschikbaar",
+                "fr": "Wi-Fi disponible",
+                "de": "WLAN verfügbar",
+                "en": "Wi-Fi available"
+            },
+            "description": {
+                "nl": "Bezoekers kunnen gebruikmaken van draadloos internet op de locatie, al dan niet gratis en met of zonder wachtwoord.",
+                "en": "Visitors can access wireless internet at the venue, which may be free or password-protected.",
+                "fr": "Les visiteurs peuvent accéder à Internet sans fil sur place, éventuellement gratuitement ou protégé par mot de passe.",
+                "de": "Besucher haben Zugang zu drahtlosem Internet am Veranstaltungsort, gegebenenfalls kostenlos oder passwortgeschützt."
+            }
+        },
+        {
+            "id": "3.14.0.0.0",
+            "domain": "facilities",
+            "name": {
+                "nl": "Educatieve dienstverlening",
+                "fr": "Services éducatifs",
+                "de": "Bildungsleistungen",
+                "en": "Educational service"
+            },
+            "description": {
+                "nl": "Aanwezigheid van specifieke voorzieningen of programma’s gericht op educatie of vorming, zoals workshops, lezingen, of begeleidende infomaterialen voor diverse doelgroepen.",
+                "fr": "Présence de services ou de programmes éducatifs spécifiques, tels que des ateliers, des conférences ou du matériel d'information destiné à différents publics.",
+                "de": "Verfügbarkeit spezieller Bildungsangebote wie Workshops, Vorträge oder begleitende Informationsmaterialien für unterschiedliche Zielgruppen.",
+                "en": "Availability of specific educational services or programs, such as workshops, lectures, or accompanying information materials tailored to various audiences."
+            }
+        },
+        {
+            "id": "3.23.1.0.0",
+            "domain": "facilities",
+            "name": {
+                "nl": "Voorzieningen voor rolstoelgebruikers",
+                "fr": "Facilités pour fauteuils roulants",
+                "de": "Einrichtung für Rollstuhlfahrer",
+                "en": "Wheelchair facilities"
+            },
+            "description": {
+                "nl": "Fysieke aanpassingen zoals oprijplaten, brede doorgangen en liften die rolstoelgebruikers een vlotte toegang tot het gebouw of terrein garanderen.",
+                "fr": "Aménagements physiques tels que rampes, larges passages et ascenseurs pour permettre un accès aisé aux utilisateurs de fauteuils roulants.",
+                "de": "Physische Anpassungen wie Rampen, breite Durchgänge und Aufzüge, die Rollstuhlfahrern einen reibungslosen Zugang gewährleisten.",
+                "en": "Physical adaptations such as ramps, wide doorways and elevators that ensure smooth access for wheelchair users."
+            }
+        },
+        {
+            "id": "3.23.2.0.0",
+            "domain": "facilities",
+            "name": {
+                "nl": "Assistentie",
+                "fr": "Assistance",
+                "de": "Hilfe",
+                "en": "Assistance"
+            },
+            "description": {
+                "nl": "Beschikbaarheid van personeel of vrijwilligers om personen met een beperking bij te staan bij toegang of deelname aan activiteiten.",
+                "fr": "Présence de personnel ou de bénévoles pour assister les personnes en situation de handicap dans l’accès ou la participation aux activités.",
+                "de": "Verfügbarkeit von Personal oder Freiwilligen zur Unterstützung von Menschen mit Behinderung beim Zugang oder bei Aktivitäten.",
+                "en": "Availability of staff or volunteers to support persons with disabilities in accessing or participating in activities."
+            }
+        },
+        {
+            "id": "3.23.3.0.0",
+            "domain": "facilities",
+            "name": {
+                "nl": "Rolstoel ter beschikking",
+                "fr": "Disponibilité de fauteuils roulants",
+                "de": "Rollstuhl verfügbar",
+                "en": "Wheelchair available"
+            },
+            "description": {
+                "nl": "Een of meerdere rolstoelen zijn ter plaatse beschikbaar voor gebruik door bezoekers die tijdelijke of permanente mobiliteitsondersteuning nodig hebben.",
+                "fr": "Un ou plusieurs fauteuils roulants disponibles sur place pour les visiteurs nécessitant un soutien à la mobilité temporaire ou permanent.",
+                "de": "Ein oder mehrere Rollstühle stehen vor Ort für Besucher zur Verfügung, die vorübergehende oder dauerhafte Mobilitätshilfen benötigen.",
+                "en": "One or more wheelchairs available on site for visitors requiring temporary or permanent mobility support."
+            }
+        },
+        {
+            "id": "3.13.1.0.0",
+            "domain": "facilities",
+            "name": {
+                "nl": "Voorzieningen voor assistentiehonden",
+                "fr": "Facilités de chiens d'assistance",
+                "de": "Einrichtung für Begleithunden",
+                "en": "Facilities for guide dogs"
+            },
+            "description": {
+                "nl": "Toegankelijkheid en voorzieningen specifiek voor bezoekers met assistentiehonden, zoals drinkplaatsen of hondentoegankelijke zones.",
+                "fr": "Accessibilité et installations spécifiques pour les visiteurs accompagnés de chiens d’assistance, comme des points d’eau ou zones réservées.",
+                "de": "Zugänglichkeit und Einrichtungen für Besucher mit Begleithunden, wie z. B. Trinkstellen oder zugängliche Bereiche.",
+                "en": "Accessibility and dedicated facilities for visitors with guide dogs, such as water points or dog-accessible areas."
+            }
+        },
+        {
+            "id": "3.13.2.0.0",
+            "domain": "facilities",
+            "name": {
+                "nl": "Audiodescriptie",
+                "fr": "Audiodescription",
+                "de": "Audio-Beschreibung",
+                "en": "Audiodescription"
+            },
+            "description": {
+                "nl": "Een gesproken beschrijving van visuele elementen in voorstellingen of tentoonstellingen voor mensen met een visuele beperking.",
+                "fr": "Description orale des éléments visuels de spectacles ou expositions pour les personnes malvoyantes.",
+                "de": "Gesprochene Beschreibung visueller Elemente in Aufführungen oder Ausstellungen für sehbehinderte Personen.",
+                "en": "A spoken description of visual elements in performances or exhibitions for people with visual impairments."
+            }
+        },
+        {
+            "id": "3.17.1.0.0",
+            "domain": "facilities",
+            "name": {
+                "nl": "Ringleiding",
+                "fr": "Boucle auditive",
+                "de": "Audio Induktionsschleife",
+                "en": "Audio induction loop"
+            },
+            "description": {
+                "nl": "Een systeem dat geluid draadloos overbrengt naar hoorapparaten of cochleaire implantaten van slechthorenden via elektromagnetische signalen.",
+                "fr": "Un système qui transmet le son sans fil aux appareils auditifs ou implants cochléaires des personnes malentendantes via des signaux électromagnétiques.",
+                "de": "Ein System, das Ton über elektromagnetische Signale drahtlos an Hörgeräte oder Cochlea-Implantate überträgt.",
+                "en": "A system that wirelessly transmits sound to hearing aids or cochlear implants of people with hearing loss using electromagnetic signals."
+            }
+        },
+        {
+            "id": "3.17.3.0.0",
+            "domain": "facilities",
+            "name": {
+                "nl": "Boven- of ondertiteling",
+                "fr": "Soustitrages",
+                "de": "Untertitel",
+                "en": "Subtitles"
+            },
+            "description": {
+                "nl": "Tekstuele weergave van gesproken dialogen of geluiden tijdens films, voorstellingen of lezingen, bedoeld voor doven en slechthorenden.",
+                "fr": "Affichage textuel des dialogues ou sons lors de films, spectacles ou conférences, destiné aux personnes sourdes ou malentendantes.",
+                "de": "Textanzeige von gesprochenem Dialog oder Geräuschen bei Filmen, Aufführungen oder Vorträgen für gehörlose oder schwerhörige Personen.",
+                "en": "Text display of spoken dialogue or sounds during films, performances, or lectures for deaf or hard-of-hearing individuals."
+            }
+        },
+        {
+            "id": "3.25.0.0.0",
+            "domain": "facilities",
+            "name": {
+                "nl": "Contactpunt voor personen met handicap",
+                "fr": "Point de contact pour les personnes avec un handicap",
+                "de": "Kontaktpunkt für Menschen mit Behinderung",
+                "en": "Point of contact for people with a disability"
+            },
+            "description": {
+                "nl": "Een aanspreekpunt waar mensen met een beperking terechtkunnen voor vragen, assistentie of specifieke noden in verband met toegankelijkheid.",
+                "fr": "Un point de contact pour répondre aux questions, besoins ou demandes d’assistance des personnes en situation de handicap.",
+                "de": "Anlaufstelle für Menschen mit Behinderung bei Fragen, Unterstützungsbedarf oder speziellen Anforderungen zur Barrierefreiheit.",
+                "en": "A designated contact for people with disabilities to request assistance or raise questions regarding accessibility."
+            }
+        },
+        {
+            "id": "3.26.0.0.0",
+            "domain": "facilities",
+            "name": {
+                "nl": "Parkeerplaats",
+                "fr": "Place de parking",
+                "de": "Behindertenparkplatz",
+                "en": "Parking area"
+            },
+            "description": {
+                "nl": "Speciaal voorziene parkeerplaatsen dicht bij de ingang, bestemd voor bezoekers met een beperking en meestal aangeduid met een pictogram.",
+                "fr": "Emplacements de stationnement réservés près de l’entrée pour les personnes en situation de handicap, identifiés par un pictogramme.",
+                "de": "Spezielle Parkplätze in der Nähe des Eingangs für Menschen mit Behinderung, meist mit Piktogramm gekennzeichnet.",
+                "en": "Designated parking spots near the entrance for visitors with disabilities, typically marked with a symbol."
+            }
+        },
+        {
+            "id": "3.27.0.0.0",
+            "domain": "facilities",
+            "name": {
+                "nl": "Rolstoeltoegankelijk",
+                "fr": "Accessible en fauteuil roulant",
+                "de": "Rollstuhlgerecht",
+                "en": "Accessible for wheelchairs"
+            },
+            "description": {
+                "nl": "De locatie is volledig toegankelijk voor rolstoelgebruikers, inclusief ingangen, paden, zalen en sanitaire voorzieningen.",
+                "fr": "Le site est entièrement accessible en fauteuil roulant, y compris les entrées, chemins, salles et sanitaires.",
+                "de": "Der Standort ist vollständig rollstuhlgerecht, einschließlich Eingängen, Wegen, Sälen und Sanitäranlagen.",
+                "en": "The venue is fully accessible for wheelchair users, including entrances, pathways, rooms, and restrooms."
+            }
+        },
+        {
+            "id": "3.33.0.0.0",
+            "domain": "facilities",
+            "name": {
+                "nl": "Tolken Vlaamse Gebarentaal",
+                "fr": "Interprètes de langue de signes",
+                "de": "Gebärdensprachdolmetscher",
+                "en": "Sign language interpreting service"
+            },
+            "description": {
+                "nl": "Beschikbaarheid van tolken Vlaamse Gebarentaal om doven en slechthorenden te ondersteunen bij deelname aan activiteiten.",
+                "fr": "Présence d’interprètes en langue des signes pour accompagner les personnes sourdes et malentendantes lors des activités.",
+                "de": "Verfügbarkeit von Dolmetschern für flämische Gebärdensprache zur Unterstützung gehörloser und schwerhöriger Personen bei Veranstaltungen.",
+                "en": "Availability of Flemish Sign Language interpreters to support deaf and hard-of-hearing individuals during events or activities."
+            }
+        },
+        {
+            "id": "3.34.0.0.0",
+            "domain": "facilities",
+            "name": {
+                "nl": "Vereenvoudigde informatie",
+                "fr": "Information simplifiée",
+                "de": "Vereinfachte Information",
+                "en": "Simplified information"
+            },
+            "description": {
+                "nl": "Toegankelijke informatie in eenvoudige taal of visuele ondersteuning voor mensen met een verstandelijke beperking of leerstoornis.",
+                "fr": "Informations accessibles, en langage simple ou avec support visuel, pour les personnes avec une déficience intellectuelle ou des troubles d’apprentissage.",
+                "de": "Zugängliche Informationen in einfacher Sprache oder mit visueller Unterstützung für Menschen mit kognitiven Einschränkungen.",
+                "en": "Accessible information using plain language or visual aids for people with cognitive disabilities or learning difficulties."
+            }
+        },
+        {
+            "id": "3.36.0.0.0",
+            "domain": "facilities",
+            "name": {
+                "nl": "Verzorgingsruimte",
+                "fr": "Salle de soins",
+                "de": "Pflegeraum",
+                "en": "Care room"
+            },
+            "description": {
+                "nl": "Een ruimte waar bezoekers medische verzorging kunnen krijgen of iemand kunnen helpen met verzorging in een rustige omgeving.",
+                "fr": "Une pièce destinée aux soins médicaux ou à l’assistance dans un environnement calme et adapté.",
+                "de": "Ein Raum für medizinische Versorgung oder betreutes Pflegen in ruhiger Umgebung.",
+                "en": "A room where visitors can receive medical care or assist someone with care in a calm environment."
+            }
+        },
+        {
+            "id": "3.37.0.0.0",
+            "domain": "facilities",
+            "name": {
+                "nl": "Oplaadzone rolstoelen",
+                "fr": "Zone de chargement pour fauteuils roulants",
+                "de": "Auflademöglichkeit für Rollstühle",
+                "en": "Charging facility for wheelchairs"
+            },
+            "description": {
+                "nl": "Speciaal ingerichte plaats waar elektrische rolstoelen of mobiliteitshulpmiddelen kunnen worden opgeladen.",
+                "fr": "Espace équipé pour recharger des fauteuils roulants électriques ou autres dispositifs de mobilité.",
+                "de": "Speziell vorgesehener Bereich zum Aufladen elektrischer Rollstühle oder Mobilitätshilfen.",
+                "en": "Designated area for charging electric wheelchairs or mobility aids."
+            }
+        },
+        {
+            "id": "3.38.0.0.0",
+            "domain": "facilities",
+            "name": {
+                "nl": "Inter-assistentie",
+                "fr": "Assistance spéciale",
+                "de": "Spezialhilfe",
+                "en": "Special assistance"
+            },
+            "description": {
+                "nl": "Specifieke hulpverlening op maat voor personen met een beperking, op aanvraag of structureel voorzien.",
+                "fr": "Aide personnalisée pour les personnes en situation de handicap, sur demande ou proposée de manière permanente.",
+                "de": "Individuelle Unterstützung für Menschen mit Behinderung – auf Anfrage oder dauerhaft verfügbar.",
+                "en": "Tailored assistance for people with disabilities, either upon request or provided on a regular basis."
+            }
+        },
+        {
+            "id": "3.39.0.0.0",
+            "domain": "facilities",
+            "name": {
+                "nl": "Begeleiderspas bij gehandicapten",
+                "fr": "Carte d'accompagnateur",
+                "de": "Ausweis Begleitperson",
+                "en": "Carer pass"
+            },
+            "description": {
+                "nl": "Een pas waarmee een begeleider van een persoon met een beperking gratis of tegen gereduceerd tarief toegang krijgt.",
+                "fr": "Un pass donnant un accès gratuit ou à tarif réduit à un accompagnateur de personne handicapée.",
+                "de": "Ein Ausweis, der Begleitpersonen von Menschen mit Behinderung kostenlosen oder ermäßigten Zutritt ermöglicht.",
+                "en": "A pass that grants a carer of a person with a disability free or discounted access."
+            }
+        },
+        {
+            "id": "3.40.0.0.0",
+            "domain": "facilities",
+            "name": {
+                "nl": "Inter-Toegankelijkheidsgarantie",
+                "fr": "Accessibilité garantie",
+                "de": "Zertifizierte Zugänglichkeit",
+                "en": "Certified accessibility"
+            },
+            "description": {
+                "nl": "Een label of garantie die aangeeft dat een locatie voldoet aan vastgelegde normen voor fysieke en informatieve toegankelijkheid.",
+                "fr": "Un label ou une garantie que le lieu respecte des normes reconnues d’accessibilité physique et informationnelle.",
+                "de": "Ein Zertifikat oder Garantie, dass ein Ort anerkannten Standards für physische und informative Zugänglichkeit entspricht.",
+                "en": "A label or certification indicating that a location meets defined standards of physical and informational accessibility."
+            }
+        },
+        {
+            "id": "H28fcfRKFQAQs00K9NF9hh",
+            "domain": "facilities",
+            "name": {
+                "nl": "Prikkelarm aanbod",
+                "fr": "Offre faiblement incitative",
+                "de": "Anreizarmes Angebot",
+                "en": "Low incentive"
+            },
+            "description": {
+                "nl": "Activiteiten of omgevingen met weinig sensorische prikkels, bedoeld voor personen met autisme of overgevoeligheid voor licht en geluid.",
+                "fr": "Activités ou environnements à faibles stimulations sensorielles, adaptés aux personnes avec autisme ou hypersensibilité.",
+                "de": "Aktivitäten oder Umgebungen mit wenig sensorischer Reizüberflutung, für Menschen mit Autismus oder Empfindlichkeit gegenüber Licht und Lärm.",
+                "en": "Activities or environments with minimal sensory stimuli, designed for people with autism or sensitivity to light and sound."
+            }
+        },
+        {
+            "id": "4Vz9eZf0cnQmtfqcGGnNMF",
+            "domain": "facilities",
+            "name": {
+                "nl": "Afspraken en voorspelbaarheid",
+                "fr": "Accords et prévisibilité",
+                "de": "Vereinbarungen und Vorhersehbarkeit",
+                "en": "Agreements and predictability"
+            },
+            "description": {
+                "nl": "Informatie op voorhand over het verloop van een activiteit, met duidelijke afspraken en vaste structuur, voor wie baat heeft bij voorspelbaarheid.",
+                "fr": "Informations préalables sur le déroulement d’une activité, avec des règles claires et une structure fixe, utiles pour ceux qui ont besoin de prévisibilité.",
+                "de": "Vorabinformationen über den Ablauf einer Aktivität mit klaren Regeln und fester Struktur, hilfreich für Menschen mit Bedürfnis nach Vorhersehbarkeit.",
+                "en": "Advance information about the structure of an activity, with clear guidelines and fixed routines, helpful for those needing predictability."
+            }
         }
     ]
 }
