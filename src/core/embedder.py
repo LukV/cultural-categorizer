@@ -3,6 +3,8 @@ from numpy.typing import NDArray
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
+from core.normalizer import normalize
+
 
 class Embedder:
     """A class for embedding text using a pre-trained SentenceTransformer model.
@@ -21,10 +23,12 @@ class Embedder:
         self, input_text: str, candidates: list[dict[str, str]], top_k: int = 5
     ) -> list[dict[str, float | str]]:
         """Compute similarity between input and candidate taxonomy terms."""
-        candidate_texts = [c["name"] for c in candidates]
+        input_text_clean = normalize(input_text)
+        candidate_texts = [c["embedding_text"] for c in candidates]
         candidate_ids = [c["id"] for c in candidates]
+        candidate_names = [c["name"] for c in candidates]
 
-        input_vec = self.encode([input_text])
+        input_vec = self.encode([input_text_clean])
         candidate_vecs = self.encode(candidate_texts)
 
         scores = cosine_similarity(input_vec, candidate_vecs)[0]
@@ -33,7 +37,7 @@ class Embedder:
         return [
             {
                 "id": candidate_ids[i],
-                "name": candidate_texts[i],
+                "name": candidate_names[i],
                 "score": float(scores[i]),
             }
             for i in top_indices

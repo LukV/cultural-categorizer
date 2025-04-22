@@ -23,11 +23,15 @@ def load_taxonomy_cli(
 
 
 @app.command("match-taxonomy")
-def match_taxonomy_cli(
+def match_taxonomy_cli(  # noqa: PLR0913
     text: str = typer.Option(..., help="Input text to match against taxonomy"),
     path: Path = Path("data/taxonomy.json"),
     language: str = "en",
     top_k: int = 5,
+    domain: str = typer.Option(
+        None,
+        help="Optional taxonomy domain to filter on (e.g. 'theme', 'eventtype', ...)",
+    ),
     *,
     with_prompt: bool = typer.Option(
         False,  # noqa: FBT003
@@ -37,6 +41,11 @@ def match_taxonomy_cli(
 ) -> None:
     """Match input text to the most similar taxonomy terms using embeddings."""
     terms = load_taxonomy(path, language)
+
+    if domain:
+        terms = [t for t in terms if t["domain"] == domain]
+        typer.echo(f"🔍 Matching only within domain: '{domain}'")
+
     embedder = Embedder()
     matches = embedder.most_similar(text, terms, top_k=top_k)
 
@@ -51,8 +60,7 @@ def match_taxonomy_cli(
     if with_prompt:
         llm_prompt = "You are a cultural data expert.\n\n"
         llm_prompt += f'Given this description:\n"{text}"\n\n'
-        llm_prompt += "Match the most appropriate categories from \
-            the following taxonomy terms:\n\n"
+        llm_prompt += "Match the most appropriate categories from the following taxonomy terms:\n\n"  # noqa: E501
         for match in matches:
             llm_prompt += f"- {match['id']}: {match['name']}\n"
 
